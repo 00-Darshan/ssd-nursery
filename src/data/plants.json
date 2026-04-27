@@ -1,0 +1,2502 @@
+[
+  {
+    "id": 1,
+    "name": "Snake Plant",
+    "kannada_name": "ನಾಗರ ಗಿಡ",
+    "scientific_name": "Sansevieria trifasciata",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "West Africa",
+    "benefits": [
+      "Air purifying",
+      "Low maintenance",
+      "Drought tolerant"
+    ],
+    "description": "A hardy, architectural plant perfect for interiors, office corners, and shaded verandas. Its upright leaves tolerate missed watering and bring strong structure to compact spaces.",
+    "image": "/images/snake-plant.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Areca Palm",
+    "kannada_name": "ಅಡಿಕೆ ತಾಳೆ",
+    "scientific_name": "Dypsis lutescens",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "Madagascar",
+    "benefits": [
+      "Soft screening",
+      "Air purifying",
+      "Humidity friendly"
+    ],
+    "description": "A graceful palm with feathery fronds that softens lobbies, patios, and indoor seating zones. It prefers bright indirect light and consistent moisture.",
+    "image": "/images/areca-palm.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Tulsi",
+    "kannada_name": "ತುಳಸಿ",
+    "scientific_name": "Ocimum tenuiflorum",
+    "category": [
+      "outdoor",
+      "sun",
+      "medicinal"
+    ],
+    "placement": "sun",
+    "origin": "Indian subcontinent",
+    "benefits": [
+      "Medicinal leaves",
+      "Pollinator friendly",
+      "Aromatic"
+    ],
+    "description": "A sacred and medicinal herb widely used in Indian homes. Tulsi thrives in sunny courtyards, temple gardens, and kitchen planters with regular pruning.",
+    "image": "/images/tulsi.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Hibiscus",
+    "kannada_name": "ದಾಸವಾಳ",
+    "scientific_name": "Hibiscus rosa-sinensis",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental"
+    ],
+    "placement": "sun",
+    "origin": "Tropical Asia",
+    "benefits": [
+      "Bright flowers",
+      "Hedge friendly",
+      "Attracts butterflies"
+    ],
+    "description": "A dependable flowering shrub for tropical landscapes. Hibiscus creates colorful borders, living fences, and focal points when placed in full sun.",
+    "image": "/images/hibiscus.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Jasmine",
+    "kannada_name": "ಮಲ್ಲಿಗೆ",
+    "scientific_name": "Jasminum sambac",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental"
+    ],
+    "placement": "sun",
+    "origin": "South and Southeast Asia",
+    "benefits": [
+      "Fragrant flowers",
+      "Garland use",
+      "Compact shrub"
+    ],
+    "description": "A beloved fragrant shrub for entrances, balconies, and garden edges. Jasmine rewards sunny placement with clusters of white blooms and evening scent.",
+    "image": "/images/jasmine.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Neem",
+    "kannada_name": "ಬೇವು",
+    "scientific_name": "Azadirachta indica",
+    "category": [
+      "outdoor",
+      "sun",
+      "medicinal"
+    ],
+    "placement": "sun",
+    "origin": "Indian subcontinent",
+    "benefits": [
+      "Shade tree",
+      "Medicinal value",
+      "Pest repellent"
+    ],
+    "description": "A resilient native tree valued for shade, medicinal uses, and ecological benefits. Neem is best suited to open sunny sites with room to mature.",
+    "image": "/images/neem.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Bougainvillea",
+    "kannada_name": "ಕಾಗದ ಹೂ",
+    "scientific_name": "Bougainvillea spectabilis",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental"
+    ],
+    "placement": "sun",
+    "origin": "South America",
+    "benefits": [
+      "Vivid bracts",
+      "Drought tolerant",
+      "Boundary coverage"
+    ],
+    "description": "A sun-loving climber with bold color and excellent drought tolerance. It works beautifully over gates, compound walls, pergolas, and boundary trellises.",
+    "image": "/images/bougainvillea.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Aloe Vera",
+    "kannada_name": "ಲೋಳೆಸರ",
+    "scientific_name": "Aloe barbadensis miller",
+    "category": [
+      "indoor",
+      "outdoor",
+      "sun",
+      "medicinal"
+    ],
+    "placement": "sun",
+    "origin": "Arabian Peninsula",
+    "benefits": [
+      "Medicinal gel",
+      "Water wise",
+      "Container friendly"
+    ],
+    "description": "A compact succulent valued for its soothing gel and low water needs. Aloe Vera suits sunny window ledges, terrace planters, and dry landscape pockets.",
+    "image": "/images/aloe-vera.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Money Plant",
+    "kannada_name": "ಮನಿ ಪ್ಲಾಂಟ್",
+    "scientific_name": "Epipremnum aureum",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "Moorea, French Polynesia",
+    "benefits": [
+      "Trailing foliage",
+      "Easy propagation",
+      "Air purifying"
+    ],
+    "description": "A versatile trailing plant for shelves, partitions, and hanging baskets. Money Plant grows well in bright shade and can be trained up supports.",
+    "image": "/images/money-plant.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Marigold",
+    "kannada_name": "ಚೆಂಡು ಹೂ",
+    "scientific_name": "Tagetes erecta",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental"
+    ],
+    "placement": "sun",
+    "origin": "Mexico and Central America",
+    "benefits": [
+      "Festival flowers",
+      "Pest deterrent",
+      "Seasonal color"
+    ],
+    "description": "A cheerful seasonal bloomer used in beds, borders, and temple or event landscaping. Marigold prefers sun and regular deadheading for fresh flowers.",
+    "image": "/images/marigold.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Ixora",
+    "kannada_name": "ಇಕ್ಸೋರಾ",
+    "scientific_name": "Ixora coccinea",
+    "category": [
+      "outdoor",
+      "sun",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "sun",
+    "origin": "Southern India and Sri Lanka",
+    "benefits": [
+      "Clustered flowers",
+      "Hedge plant",
+      "Pollinator friendly"
+    ],
+    "description": "A compact evergreen shrub with dense flower clusters. Ixora is excellent for low hedges, driveway edges, and mixed ornamental planting schemes.",
+    "image": "/images/ixora.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Peace Lily",
+    "kannada_name": "ಶಾಂತಿ ಲಿಲಿ",
+    "scientific_name": "Spathiphyllum wallisii",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "Central and South America",
+    "benefits": [
+      "Air purifying",
+      "White blooms",
+      "Low light tolerant"
+    ],
+    "description": "An elegant indoor plant with glossy leaves and white spathes. Peace Lily suits reception counters, shaded interiors, and quiet hospitality spaces.",
+    "image": "/images/peace-lily.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Rose",
+    "kannada_name": "ಗುಲಾಬಿ",
+    "scientific_name": "Rosa indica",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "flowering"
+    ],
+    "placement": "sun",
+    "origin": "Asia and Europe",
+    "benefits": [
+      "Fragrant flowers",
+      "Cut flowers",
+      "Container friendly"
+    ],
+    "description": "A classic flowering shrub for balconies, borders, and ceremonial gardens. Roses need bright sun, pruning, and rich soil for repeat blooms.",
+    "image": "/images/rose.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Chrysanthemum",
+    "kannada_name": "ಸೇವಂತಿಗೆ",
+    "scientific_name": "Chrysanthemum morifolium",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "flowering"
+    ],
+    "placement": "sun",
+    "origin": "East Asia",
+    "benefits": [
+      "Seasonal color",
+      "Cut flowers",
+      "Festival use"
+    ],
+    "description": "A popular cool-season bloomer with dense colorful heads. It suits pots, borders, and festive flower displays with regular pinching.",
+    "image": "/images/chrysanthemum.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Crossandra",
+    "kannada_name": "ಕನಕಾಂಬರ",
+    "scientific_name": "Crossandra infundibuliformis",
+    "category": [
+      "outdoor",
+      "sun",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "sun",
+    "origin": "South India and Sri Lanka",
+    "benefits": [
+      "Bright flowers",
+      "Garland use",
+      "Compact growth"
+    ],
+    "description": "A compact tropical plant known for orange fan-shaped blooms. Crossandra works well in warm garden edges and sunny containers.",
+    "image": "/images/crossandra.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Oleander",
+    "kannada_name": "ಕಣಗಿಲೆ",
+    "scientific_name": "Nerium oleander",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "hedge"
+    ],
+    "placement": "sun",
+    "origin": "Mediterranean region and Asia",
+    "benefits": [
+      "Hardy shrub",
+      "Colorful flowers",
+      "Boundary planting"
+    ],
+    "description": "A tough flowering shrub for roadsides, boundaries, and dry sunny landscapes. It is ornamental only and should be kept away from children and pets.",
+    "image": "/images/oleander.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Plumeria",
+    "kannada_name": "ದೇವ ಕಣಗಿಲೆ",
+    "scientific_name": "Plumeria rubra",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "tree"
+    ],
+    "placement": "sun",
+    "origin": "Central America",
+    "benefits": [
+      "Fragrant flowers",
+      "Temple gardens",
+      "Drought tolerant"
+    ],
+    "description": "A small flowering tree with fragrant blooms and sculptural branches. Plumeria is excellent near entrances, courtyards, and temple landscapes.",
+    "image": "/images/plumeria.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Canna Lily",
+    "kannada_name": "ಕ್ಯಾನಾ ಲಿಲಿ",
+    "scientific_name": "Canna indica",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "flowering"
+    ],
+    "placement": "sun",
+    "origin": "Tropical Americas",
+    "benefits": [
+      "Bold foliage",
+      "Bright flowers",
+      "Wet soil tolerant"
+    ],
+    "description": "A tropical plant with large leaves and vibrant flowers. Canna adds height and color to borders, water edges, and large planters.",
+    "image": "/images/canna-lily.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Madagascar Periwinkle",
+    "kannada_name": "ನಿತ್ಯ ಪುಷ್ಪ",
+    "scientific_name": "Catharanthus roseus",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "medicinal"
+    ],
+    "placement": "sun",
+    "origin": "Madagascar",
+    "benefits": [
+      "Year-round flowers",
+      "Heat tolerant",
+      "Low maintenance"
+    ],
+    "description": "A reliable flowering plant for hot sunny beds and containers. It produces cheerful blooms with minimal care in warm climates.",
+    "image": "/images/madagascar-periwinkle.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Gardenia",
+    "kannada_name": "ಗಾರ್ಡೀನಿಯಾ",
+    "scientific_name": "Gardenia jasminoides",
+    "category": [
+      "outdoor",
+      "sun",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "East Asia",
+    "benefits": [
+      "Fragrant flowers",
+      "Glossy foliage",
+      "Patio friendly"
+    ],
+    "description": "A fragrant shrub with creamy white flowers and glossy leaves. Gardenia prefers bright filtered light and slightly acidic soil.",
+    "image": "/images/gardenia.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Tuberose",
+    "kannada_name": "ಸುಗಂಧರಾಜ",
+    "scientific_name": "Polianthes tuberosa",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "flowering"
+    ],
+    "placement": "sun",
+    "origin": "Mexico",
+    "benefits": [
+      "Strong fragrance",
+      "Cut flowers",
+      "Garland use"
+    ],
+    "description": "A bulbous plant grown for tall spikes of intensely fragrant white flowers. Tuberose is ideal for sunny beds and flower production.",
+    "image": "/images/tuberose.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Lotus",
+    "kannada_name": "ಕಮಲ",
+    "scientific_name": "Nelumbo nucifera",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "aquatic"
+    ],
+    "placement": "sun",
+    "origin": "Asia and Australia",
+    "benefits": [
+      "Aquatic beauty",
+      "Sacred flower",
+      "Pollinator friendly"
+    ],
+    "description": "A sacred aquatic plant with large floating leaves and showy flowers. Lotus needs full sun and a pond, tub, or water garden.",
+    "image": "/images/lotus.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Champak",
+    "kannada_name": "ಸಂಪಿಗೆ",
+    "scientific_name": "Magnolia champaca",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "tree"
+    ],
+    "placement": "sun",
+    "origin": "South and Southeast Asia",
+    "benefits": [
+      "Fragrant flowers",
+      "Sacred use",
+      "Shade tree"
+    ],
+    "description": "A fragrant flowering tree treasured in traditional gardens. Champak suits larger sunny spaces where its canopy and scent can be enjoyed.",
+    "image": "/images/champak.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Crape Jasmine",
+    "kannada_name": "ನಂದಿ ಬಟ್ಟಲು",
+    "scientific_name": "Tabernaemontana divaricata",
+    "category": [
+      "outdoor",
+      "sun",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "sun",
+    "origin": "South and Southeast Asia",
+    "benefits": [
+      "White flowers",
+      "Hedge friendly",
+      "Evergreen foliage"
+    ],
+    "description": "A glossy evergreen shrub with pinwheel-like white flowers. It works well for hedges, temple gardens, and courtyard planting.",
+    "image": "/images/crape-jasmine.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Rangoon Creeper",
+    "kannada_name": "ಮಧುಮಾಲತಿ",
+    "scientific_name": "Combretum indicum",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "climber"
+    ],
+    "placement": "sun",
+    "origin": "Tropical Asia",
+    "benefits": [
+      "Fragrant flowers",
+      "Pergola coverage",
+      "Attracts pollinators"
+    ],
+    "description": "A vigorous climber with flower clusters that change from white to pink and red. It is perfect for pergolas, arches, and compound walls.",
+    "image": "/images/rangoon-creeper.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Butterfly Pea",
+    "kannada_name": "ಶಂಖಪುಷ್ಪಿ",
+    "scientific_name": "Clitoria ternatea",
+    "category": [
+      "outdoor",
+      "sun",
+      "medicinal",
+      "climber"
+    ],
+    "placement": "sun",
+    "origin": "Tropical Asia",
+    "benefits": [
+      "Blue flowers",
+      "Pollinator friendly",
+      "Trellis plant"
+    ],
+    "description": "A fast-growing climber with vivid blue flowers. Butterfly Pea suits fences, balcony grills, and small trellises in sunny spots.",
+    "image": "/images/butterfly-pea.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Allamanda",
+    "kannada_name": "ಅಲಮಾಂಡಾ",
+    "scientific_name": "Allamanda cathartica",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "climber"
+    ],
+    "placement": "sun",
+    "origin": "Tropical South America",
+    "benefits": [
+      "Yellow flowers",
+      "Fence coverage",
+      "Fast growth"
+    ],
+    "description": "A tropical climber or shrub with large yellow trumpet flowers. Allamanda brightens gates, fences, and sunny garden corners.",
+    "image": "/images/allamanda.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Passion Flower",
+    "kannada_name": "ಪ್ಯಾಷನ್ ಹೂ",
+    "scientific_name": "Passiflora edulis",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "climber"
+    ],
+    "placement": "sun",
+    "origin": "South America",
+    "benefits": [
+      "Unique flowers",
+      "Edible fruit",
+      "Trellis coverage"
+    ],
+    "description": "A vigorous climber with intricate flowers and edible fruit. It needs strong support, sun, and regular watering during establishment.",
+    "image": "/images/passion-flower.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Flame Vine",
+    "kannada_name": "ಜ್ವಾಲೆ ಬಳ್ಳಿ",
+    "scientific_name": "Pyrostegia venusta",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "climber"
+    ],
+    "placement": "sun",
+    "origin": "Brazil and Paraguay",
+    "benefits": [
+      "Orange flowers",
+      "Wall coverage",
+      "Winter color"
+    ],
+    "description": "A fast climber that covers walls with orange tubular flowers. Flame Vine is best trained over pergolas, arches, and sunny boundaries.",
+    "image": "/images/flame-vine.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Garlic Vine",
+    "kannada_name": "ಬೆಳ್ಳುಳ್ಳಿ ಬಳ್ಳಿ",
+    "scientific_name": "Mansoa alliacea",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "climber"
+    ],
+    "placement": "sun",
+    "origin": "Tropical South America",
+    "benefits": [
+      "Purple flowers",
+      "Fence coverage",
+      "Aromatic leaves"
+    ],
+    "description": "A decorative climber with purple trumpet flowers and garlic-scented leaves. It looks attractive on fences and sunny trellises.",
+    "image": "/images/garlic-vine.jpg"
+  },
+  {
+    "id": 31,
+    "name": "Tecoma",
+    "kannada_name": "ಹಳದಿ ಗಂಟೆ ಹೂ",
+    "scientific_name": "Tecoma stans",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "shrub"
+    ],
+    "placement": "sun",
+    "origin": "Americas",
+    "benefits": [
+      "Yellow flowers",
+      "Hardy shrub",
+      "Pollinator friendly"
+    ],
+    "description": "A hardy shrub or small tree with bright yellow bell-shaped flowers. Tecoma is useful for sunny borders and roadside landscaping.",
+    "image": "/images/tecoma.jpg"
+  },
+  {
+    "id": 32,
+    "name": "Pentas",
+    "kannada_name": "ಪೆಂಟಾಸ್",
+    "scientific_name": "Pentas lanceolata",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "flowering"
+    ],
+    "placement": "sun",
+    "origin": "Tropical Africa",
+    "benefits": [
+      "Butterfly friendly",
+      "Clustered flowers",
+      "Long blooming"
+    ],
+    "description": "A compact flowering plant with star-shaped clusters loved by butterflies. Pentas performs well in sunny beds and mixed planters.",
+    "image": "/images/pentas.jpg"
+  },
+  {
+    "id": 33,
+    "name": "Lantana",
+    "kannada_name": "ಲಂಟಾನಾ",
+    "scientific_name": "Lantana camara",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "shrub"
+    ],
+    "placement": "sun",
+    "origin": "Tropical Americas",
+    "benefits": [
+      "Butterfly friendly",
+      "Heat tolerant",
+      "Colorful clusters"
+    ],
+    "description": "A rugged flowering shrub with multi-colored clusters. Use it carefully in managed beds, as it can spread aggressively in open landscapes.",
+    "image": "/images/lantana.jpg"
+  },
+  {
+    "id": 34,
+    "name": "Zinnia",
+    "kannada_name": "ಜೀನಿಯಾ",
+    "scientific_name": "Zinnia elegans",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "seasonal"
+    ],
+    "placement": "sun",
+    "origin": "Mexico",
+    "benefits": [
+      "Seasonal color",
+      "Cut flowers",
+      "Pollinator friendly"
+    ],
+    "description": "A bright annual flower for sunny beds and pots. Zinnias grow quickly from seed and attract butterflies in warm weather.",
+    "image": "/images/zinnia.jpg"
+  },
+  {
+    "id": 35,
+    "name": "Petunia",
+    "kannada_name": "ಪೆಟುನಿಯಾ",
+    "scientific_name": "Petunia hybrida",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "seasonal"
+    ],
+    "placement": "sun",
+    "origin": "South America",
+    "benefits": [
+      "Container color",
+      "Hanging baskets",
+      "Long flowering"
+    ],
+    "description": "A colorful bedding plant for cool-season displays. Petunias suit hanging baskets, railing planters, and sunny garden beds.",
+    "image": "/images/petunia.jpg"
+  },
+  {
+    "id": 36,
+    "name": "Sunflower",
+    "kannada_name": "ಸೂರ್ಯಕಾಂತಿ",
+    "scientific_name": "Helianthus annuus",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "flowering"
+    ],
+    "placement": "sun",
+    "origin": "North America",
+    "benefits": [
+      "Large flowers",
+      "Seed production",
+      "Pollinator friendly"
+    ],
+    "description": "A cheerful annual with large sun-facing flowers. Sunflower is excellent for open sunny patches, educational gardens, and seasonal displays.",
+    "image": "/images/sunflower.jpg"
+  },
+  {
+    "id": 37,
+    "name": "Portulaca",
+    "kannada_name": "ಪೋರ್ಚುಲಾಕಾ",
+    "scientific_name": "Portulaca grandiflora",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "succulent"
+    ],
+    "placement": "sun",
+    "origin": "South America",
+    "benefits": [
+      "Drought tolerant",
+      "Bright flowers",
+      "Groundcover"
+    ],
+    "description": "A low-growing succulent annual with jewel-like flowers. Portulaca thrives in sunny, dry planters and rock garden pockets.",
+    "image": "/images/portulaca.jpg"
+  },
+  {
+    "id": 38,
+    "name": "Cosmos",
+    "kannada_name": "ಕಾಸ್ಮೋಸ್",
+    "scientific_name": "Cosmos bipinnatus",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "seasonal"
+    ],
+    "placement": "sun",
+    "origin": "Mexico",
+    "benefits": [
+      "Airy flowers",
+      "Pollinator friendly",
+      "Easy from seed"
+    ],
+    "description": "A light, airy annual with daisy-like flowers. Cosmos is perfect for informal sunny beds and pollinator-friendly seasonal gardens.",
+    "image": "/images/cosmos.jpg"
+  },
+  {
+    "id": 39,
+    "name": "Celosia",
+    "kannada_name": "ಕೋಳಿ ಜುಟ್ಟು ಹೂ",
+    "scientific_name": "Celosia argentea",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "seasonal"
+    ],
+    "placement": "sun",
+    "origin": "Tropical Africa and Asia",
+    "benefits": [
+      "Bright plumes",
+      "Heat tolerant",
+      "Cut flowers"
+    ],
+    "description": "A colorful annual with plume or cockscomb-shaped flowers. Celosia gives strong color to sunny pots, borders, and festival displays.",
+    "image": "/images/celosia.jpg"
+  },
+  {
+    "id": 40,
+    "name": "Geranium",
+    "kannada_name": "ಜೆರೇನಿಯಂ",
+    "scientific_name": "Pelargonium zonale",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "container"
+    ],
+    "placement": "sun",
+    "origin": "South Africa",
+    "benefits": [
+      "Container flowers",
+      "Aromatic foliage",
+      "Balcony friendly"
+    ],
+    "description": "A neat flowering plant for sunny balconies and pots. Geraniums prefer good drainage and regular trimming for compact growth.",
+    "image": "/images/geranium.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Dahlia",
+    "kannada_name": "ಡೇಲಿಯಾ",
+    "scientific_name": "Dahlia pinnata",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "flowering"
+    ],
+    "placement": "sun",
+    "origin": "Mexico and Central America",
+    "benefits": [
+      "Large flowers",
+      "Cut flowers",
+      "Seasonal display"
+    ],
+    "description": "A striking flowering plant grown from tubers. Dahlias create bold seasonal color in sunny beds and large containers.",
+    "image": "/images/dahlia.jpg"
+  },
+  {
+    "id": 42,
+    "name": "Orchid",
+    "kannada_name": "ಆರ್ಕಿಡ್",
+    "scientific_name": "Dendrobium nobile",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental",
+      "flowering"
+    ],
+    "placement": "shade",
+    "origin": "South and Southeast Asia",
+    "benefits": [
+      "Elegant flowers",
+      "Long-lasting blooms",
+      "Decorative display"
+    ],
+    "description": "A graceful orchid suited to bright filtered light and airy potting media. It works beautifully in patios, balconies, and indoor display areas.",
+    "image": "/images/orchid.jpg"
+  },
+  {
+    "id": 43,
+    "name": "Anthurium",
+    "kannada_name": "ಆಂಥೂರಿಯಂ",
+    "scientific_name": "Anthurium andraeanum",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental",
+      "flowering"
+    ],
+    "placement": "shade",
+    "origin": "Colombia and Ecuador",
+    "benefits": [
+      "Glossy spathes",
+      "Indoor color",
+      "Humidity friendly"
+    ],
+    "description": "An indoor favorite with glossy leaves and bright heart-shaped spathes. Anthurium prefers bright indirect light, humidity, and airy soil.",
+    "image": "/images/anthurium.jpg"
+  },
+  {
+    "id": 44,
+    "name": "ZZ Plant",
+    "kannada_name": "ಝೆಡ್ ಝೆಡ್ ಪ್ಲಾಂಟ್",
+    "scientific_name": "Zamioculcas zamiifolia",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "Eastern Africa",
+    "benefits": [
+      "Low maintenance",
+      "Drought tolerant",
+      "Low light tolerant"
+    ],
+    "description": "A glossy, resilient indoor plant for offices and homes. ZZ Plant tolerates low light and missed watering better than many houseplants.",
+    "image": "/images/zz-plant.jpg"
+  },
+  {
+    "id": 45,
+    "name": "Spider Plant",
+    "kannada_name": "ಸ್ಪೈಡರ್ ಪ್ಲಾಂಟ್",
+    "scientific_name": "Chlorophytum comosum",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "Southern Africa",
+    "benefits": [
+      "Easy propagation",
+      "Hanging baskets",
+      "Air purifying"
+    ],
+    "description": "A forgiving indoor plant that produces arching leaves and baby plantlets. It suits shelves, hanging baskets, and bright shaded corners.",
+    "image": "/images/spider-plant.jpg"
+  },
+  {
+    "id": 46,
+    "name": "Rubber Plant",
+    "kannada_name": "ರಬ್ಬರ್ ಪ್ಲಾಂಟ್",
+    "scientific_name": "Ficus elastica",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "South and Southeast Asia",
+    "benefits": [
+      "Bold foliage",
+      "Air purifying",
+      "Statement plant"
+    ],
+    "description": "A bold indoor plant with large glossy leaves. Rubber Plant works well as a statement piece in bright indirect light.",
+    "image": "/images/rubber-plant.jpg"
+  },
+  {
+    "id": 47,
+    "name": "Fiddle Leaf Fig",
+    "kannada_name": "ಫಿಡಲ್ ಲೀಫ್ ಫಿಗ್",
+    "scientific_name": "Ficus lyrata",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "Western Africa",
+    "benefits": [
+      "Statement foliage",
+      "Interior accent",
+      "Large leaves"
+    ],
+    "description": "A stylish indoor plant with large violin-shaped leaves. It prefers bright indirect light, stable watering, and a fixed location.",
+    "image": "/images/fiddle-leaf-fig.jpg"
+  },
+  {
+    "id": 48,
+    "name": "Monstera",
+    "kannada_name": "ಮೋನ್ಸ್ಟೆರಾ",
+    "scientific_name": "Monstera deliciosa",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental",
+      "climber"
+    ],
+    "placement": "shade",
+    "origin": "Central America",
+    "benefits": [
+      "Split leaves",
+      "Tropical look",
+      "Climbing foliage"
+    ],
+    "description": "A tropical foliage plant famous for split leaves. Monstera adds lush character to interiors and shaded patios with support.",
+    "image": "/images/monstera.jpg"
+  },
+  {
+    "id": 49,
+    "name": "Heartleaf Philodendron",
+    "kannada_name": "ಫಿಲೊಡೆಂಡ್ರಾನ್",
+    "scientific_name": "Philodendron hederaceum",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental",
+      "climber"
+    ],
+    "placement": "shade",
+    "origin": "Central and South America",
+    "benefits": [
+      "Trailing foliage",
+      "Easy care",
+      "Shelf friendly"
+    ],
+    "description": "A trailing indoor plant with heart-shaped leaves. It grows well on shelves, moss poles, and hanging baskets in bright shade.",
+    "image": "/images/heartleaf-philodendron.jpg"
+  },
+  {
+    "id": 50,
+    "name": "Aglaonema",
+    "kannada_name": "ಅಗ್ಲೋನೀಮಾ",
+    "scientific_name": "Aglaonema commutatum",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "Southeast Asia",
+    "benefits": [
+      "Colorful foliage",
+      "Low light tolerant",
+      "Desk plant"
+    ],
+    "description": "A compact foliage plant with patterned leaves. Aglaonema is ideal for desks, reception counters, and shaded indoor corners.",
+    "image": "/images/aglaonema.jpg"
+  },
+  {
+    "id": 51,
+    "name": "Dieffenbachia",
+    "kannada_name": "ಡಿಫೆನ್‌ಬಾಕಿಯಾ",
+    "scientific_name": "Dieffenbachia seguine",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "Tropical Americas",
+    "benefits": [
+      "Variegated leaves",
+      "Indoor accent",
+      "Fast growth"
+    ],
+    "description": "A leafy indoor plant with attractive variegation. Grow it in bright shade and handle carefully, as its sap can irritate skin and mouth.",
+    "image": "/images/dieffenbachia.jpg"
+  },
+  {
+    "id": 52,
+    "name": "Syngonium",
+    "kannada_name": "ಸಿಂಗೋನಿಯಂ",
+    "scientific_name": "Syngonium podophyllum",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental",
+      "climber"
+    ],
+    "placement": "shade",
+    "origin": "Central and South America",
+    "benefits": [
+      "Arrow leaves",
+      "Easy propagation",
+      "Trailing plant"
+    ],
+    "description": "A versatile indoor plant with arrow-shaped leaves. Syngonium can trail, climb, or grow as a compact tabletop plant.",
+    "image": "/images/syngonium.jpg"
+  },
+  {
+    "id": 53,
+    "name": "Boston Fern",
+    "kannada_name": "ಬಾಸ್ಟನ್ ಫರ್ನ್",
+    "scientific_name": "Nephrolepis exaltata",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental",
+      "fern"
+    ],
+    "placement": "shade",
+    "origin": "Tropical Americas",
+    "benefits": [
+      "Soft foliage",
+      "Hanging baskets",
+      "Humidity friendly"
+    ],
+    "description": "A lush fern with arching fronds suited to shaded balconies and humid interiors. It needs regular moisture and filtered light.",
+    "image": "/images/boston-fern.jpg"
+  },
+  {
+    "id": 54,
+    "name": "Croton",
+    "kannada_name": "ಕ್ರೋಟನ್",
+    "scientific_name": "Codiaeum variegatum",
+    "category": [
+      "outdoor",
+      "sun",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "sun",
+    "origin": "Southeast Asia and Pacific Islands",
+    "benefits": [
+      "Colorful foliage",
+      "Hedge accents",
+      "Container friendly"
+    ],
+    "description": "A colorful foliage shrub with bold leaf patterns. Croton gives the best color in bright light and works well in borders and pots.",
+    "image": "/images/croton.jpg"
+  },
+  {
+    "id": 55,
+    "name": "Coleus",
+    "kannada_name": "ಕೋಲಿಯಸ್",
+    "scientific_name": "Coleus scutellarioides",
+    "category": [
+      "outdoor",
+      "shade",
+      "ornamental",
+      "foliage"
+    ],
+    "placement": "shade",
+    "origin": "Southeast Asia and Australia",
+    "benefits": [
+      "Colorful leaves",
+      "Easy cuttings",
+      "Border plant"
+    ],
+    "description": "A bright foliage plant grown for patterned leaves. Coleus is useful in shaded borders, mixed pots, and quick color schemes.",
+    "image": "/images/coleus.jpg"
+  },
+  {
+    "id": 56,
+    "name": "Calathea",
+    "kannada_name": "ಕಲಾಥಿಯಾ",
+    "scientific_name": "Goeppertia makoyana",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "Brazil",
+    "benefits": [
+      "Patterned foliage",
+      "Indoor decor",
+      "Pet friendly"
+    ],
+    "description": "A decorative indoor plant with patterned leaves. Calathea prefers bright shade, humidity, and evenly moist soil.",
+    "image": "/images/calathea.jpg"
+  },
+  {
+    "id": 57,
+    "name": "Jade Plant",
+    "kannada_name": "ಜೇಡ್ ಪ್ಲಾಂಟ್",
+    "scientific_name": "Crassula ovata",
+    "category": [
+      "indoor",
+      "sun",
+      "succulent",
+      "ornamental"
+    ],
+    "placement": "sun",
+    "origin": "South Africa",
+    "benefits": [
+      "Water wise",
+      "Compact succulent",
+      "Easy care"
+    ],
+    "description": "A compact succulent with thick glossy leaves. Jade Plant suits sunny windows, tabletops, and dry container gardens.",
+    "image": "/images/jade-plant.jpg"
+  },
+  {
+    "id": 58,
+    "name": "Lucky Bamboo",
+    "kannada_name": "ಲಕ್ಕಿ ಬಾಂಬೂ",
+    "scientific_name": "Dracaena sanderiana",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "Central Africa",
+    "benefits": [
+      "Desk plant",
+      "Water culture",
+      "Low maintenance"
+    ],
+    "description": "A popular indoor plant often grown in water or pebbles. Lucky Bamboo suits desks, counters, and bright shaded interiors.",
+    "image": "/images/lucky-bamboo.jpg"
+  },
+  {
+    "id": 59,
+    "name": "Song of India",
+    "kannada_name": "ಸಾಂಗ್ ಆಫ್ ಇಂಡಿಯಾ",
+    "scientific_name": "Dracaena reflexa",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "Madagascar and Indian Ocean islands",
+    "benefits": [
+      "Variegated foliage",
+      "Indoor accent",
+      "Low maintenance"
+    ],
+    "description": "A variegated foliage plant with upright branching growth. It is useful for indoor corners, shaded patios, and office planters.",
+    "image": "/images/song-of-india.jpg"
+  },
+  {
+    "id": 60,
+    "name": "Christmas Cactus",
+    "kannada_name": "ಕ್ರಿಸ್ಮಸ್ ಕ್ಯಾಕ್ಟಸ್",
+    "scientific_name": "Schlumbergera truncata",
+    "category": [
+      "indoor",
+      "shade",
+      "succulent",
+      "flowering"
+    ],
+    "placement": "shade",
+    "origin": "Brazil",
+    "benefits": [
+      "Seasonal flowers",
+      "Hanging baskets",
+      "Compact succulent"
+    ],
+    "description": "A tropical cactus with flat stems and bright seasonal flowers. It prefers bright indirect light rather than harsh sun.",
+    "image": "/images/christmas-cactus.jpg"
+  },
+  {
+    "id": 61,
+    "name": "Echeveria",
+    "kannada_name": "ಎಚೆವೆರಿಯಾ",
+    "scientific_name": "Echeveria elegans",
+    "category": [
+      "indoor",
+      "sun",
+      "succulent",
+      "ornamental"
+    ],
+    "placement": "sun",
+    "origin": "Mexico",
+    "benefits": [
+      "Rosette form",
+      "Water wise",
+      "Mini planters"
+    ],
+    "description": "A small rosette-form succulent for sunny windows and decorative bowls. Echeveria needs excellent drainage and light watering.",
+    "image": "/images/echeveria.jpg"
+  },
+  {
+    "id": 62,
+    "name": "Agave",
+    "kannada_name": "ಅಗವೇ",
+    "scientific_name": "Agave americana",
+    "category": [
+      "outdoor",
+      "sun",
+      "succulent",
+      "ornamental"
+    ],
+    "placement": "sun",
+    "origin": "Mexico and southern United States",
+    "benefits": [
+      "Drought tolerant",
+      "Architectural form",
+      "Rock garden plant"
+    ],
+    "description": "A bold succulent with strong rosettes and spiny leaves. Agave is best for sunny dry landscapes and large containers.",
+    "image": "/images/agave.jpg"
+  },
+  {
+    "id": 63,
+    "name": "Crown of Thorns",
+    "kannada_name": "ಮುಳ್ಳಿನ ಕಿರೀಟ",
+    "scientific_name": "Euphorbia milii",
+    "category": [
+      "outdoor",
+      "sun",
+      "succulent",
+      "ornamental"
+    ],
+    "placement": "sun",
+    "origin": "Madagascar",
+    "benefits": [
+      "Drought tolerant",
+      "Bright bracts",
+      "Container friendly"
+    ],
+    "description": "A tough succulent shrub with colorful bracts and thorny stems. It flowers best in bright sun and well-drained soil.",
+    "image": "/images/crown-of-thorns.jpg"
+  },
+  {
+    "id": 64,
+    "name": "Brahmi",
+    "kannada_name": "ಬ್ರಾಹ್ಮಿ",
+    "scientific_name": "Bacopa monnieri",
+    "category": [
+      "outdoor",
+      "sun",
+      "shade",
+      "medicinal"
+    ],
+    "placement": "sun",
+    "origin": "Wet tropics and subtropics worldwide",
+    "benefits": [
+      "Medicinal herb",
+      "Moist soil plant",
+      "Groundcover"
+    ],
+    "description": "A creeping medicinal herb that likes moisture. Brahmi grows well in wet planters, pond edges, and partially sunny garden beds.",
+    "image": "/images/brahmi.jpg"
+  },
+  {
+    "id": 65,
+    "name": "Ashwagandha",
+    "kannada_name": "ಅಶ್ವಗಂಧ",
+    "scientific_name": "Withania somnifera",
+    "category": [
+      "outdoor",
+      "sun",
+      "medicinal",
+      "herb"
+    ],
+    "placement": "sun",
+    "origin": "Indian subcontinent, Middle East and Africa",
+    "benefits": [
+      "Medicinal roots",
+      "Drought tolerant",
+      "Traditional herb"
+    ],
+    "description": "A hardy medicinal shrub grown in dry sunny areas. Ashwagandha prefers well-drained soil and low to moderate watering.",
+    "image": "/images/ashwagandha.jpg"
+  },
+  {
+    "id": 66,
+    "name": "Curry Leaf",
+    "kannada_name": "ಕರಿಬೇವು",
+    "scientific_name": "Murraya koenigii",
+    "category": [
+      "outdoor",
+      "sun",
+      "herb",
+      "medicinal"
+    ],
+    "placement": "sun",
+    "origin": "Indian subcontinent",
+    "benefits": [
+      "Culinary leaves",
+      "Aromatic",
+      "Container friendly"
+    ],
+    "description": "An essential kitchen garden plant with aromatic leaves. Curry Leaf grows well in sunny pots, courtyards, and small home gardens.",
+    "image": "/images/curry-leaf.jpg"
+  },
+  {
+    "id": 67,
+    "name": "Lemongrass",
+    "kannada_name": "ಮಜ್ಜಿಗೆ ಹುಲ್ಲು",
+    "scientific_name": "Cymbopogon citratus",
+    "category": [
+      "outdoor",
+      "sun",
+      "herb",
+      "medicinal"
+    ],
+    "placement": "sun",
+    "origin": "Tropical Asia",
+    "benefits": [
+      "Aromatic leaves",
+      "Herbal tea",
+      "Mosquito repellent aroma"
+    ],
+    "description": "A clumping aromatic grass useful in herbal teas and kitchen gardens. It prefers sun, regular cutting, and well-drained soil.",
+    "image": "/images/lemongrass.jpg"
+  },
+  {
+    "id": 68,
+    "name": "Mint",
+    "kannada_name": "ಪುದೀನಾ",
+    "scientific_name": "Mentha spicata",
+    "category": [
+      "outdoor",
+      "shade",
+      "herb",
+      "medicinal"
+    ],
+    "placement": "shade",
+    "origin": "Europe and Asia",
+    "benefits": [
+      "Culinary leaves",
+      "Aromatic",
+      "Container friendly"
+    ],
+    "description": "A fast-growing aromatic herb for chutneys, teas, and garnishes. Mint is best grown in pots with bright shade and regular moisture.",
+    "image": "/images/mint.jpg"
+  },
+  {
+    "id": 69,
+    "name": "Coriander",
+    "kannada_name": "ಕೊತ್ತಂಬರಿ",
+    "scientific_name": "Coriandrum sativum",
+    "category": [
+      "outdoor",
+      "sun",
+      "herb",
+      "culinary"
+    ],
+    "placement": "sun",
+    "origin": "Mediterranean region and West Asia",
+    "benefits": [
+      "Culinary leaves",
+      "Seeds as spice",
+      "Quick harvest"
+    ],
+    "description": "A quick-growing kitchen herb for leaves and seeds. Coriander grows best in mild weather with sun and frequent light harvesting.",
+    "image": "/images/coriander.jpg"
+  },
+  {
+    "id": 70,
+    "name": "Betel Leaf",
+    "kannada_name": "ವೀಳ್ಯದೆಲೆ",
+    "scientific_name": "Piper betle",
+    "category": [
+      "outdoor",
+      "shade",
+      "medicinal",
+      "climber"
+    ],
+    "placement": "shade",
+    "origin": "South and Southeast Asia",
+    "benefits": [
+      "Aromatic leaves",
+      "Cultural use",
+      "Shade climber"
+    ],
+    "description": "A tropical vine grown for aromatic leaves. Betel Leaf prefers shade, humidity, support, and consistently moist soil.",
+    "image": "/images/betel-leaf.jpg"
+  },
+  {
+    "id": 71,
+    "name": "Indian Borage",
+    "kannada_name": "ದೊಡ್ಡಪತ್ರೆ",
+    "scientific_name": "Coleus amboinicus",
+    "category": [
+      "outdoor",
+      "sun",
+      "shade",
+      "medicinal"
+    ],
+    "placement": "sun",
+    "origin": "Southern and Eastern Africa",
+    "benefits": [
+      "Aromatic leaves",
+      "Traditional herb",
+      "Easy cuttings"
+    ],
+    "description": "A fleshy aromatic herb grown in many home gardens. Indian Borage is easy from cuttings and suits pots or sunny herb beds.",
+    "image": "/images/indian-borage.jpg"
+  },
+  {
+    "id": 72,
+    "name": "Turmeric",
+    "kannada_name": "ಅರಿಶಿನ",
+    "scientific_name": "Curcuma longa",
+    "category": [
+      "outdoor",
+      "shade",
+      "spice",
+      "medicinal"
+    ],
+    "placement": "shade",
+    "origin": "Indian subcontinent and Southeast Asia",
+    "benefits": [
+      "Medicinal rhizomes",
+      "Spice crop",
+      "Leafy foliage"
+    ],
+    "description": "A rhizome plant valued as a spice and traditional herb. Turmeric grows well in warm, humid, lightly shaded beds or grow bags.",
+    "image": "/images/turmeric.jpg"
+  },
+  {
+    "id": 73,
+    "name": "Ginger",
+    "kannada_name": "ಶುಂಠಿ",
+    "scientific_name": "Zingiber officinale",
+    "category": [
+      "outdoor",
+      "shade",
+      "spice",
+      "medicinal"
+    ],
+    "placement": "shade",
+    "origin": "Southeast Asia",
+    "benefits": [
+      "Culinary rhizomes",
+      "Medicinal use",
+      "Container friendly"
+    ],
+    "description": "A warm-season rhizome crop for kitchen gardens. Ginger prefers filtered light, rich soil, and steady moisture.",
+    "image": "/images/ginger.jpg"
+  },
+  {
+    "id": 74,
+    "name": "Vetiver",
+    "kannada_name": "ಲಾವಂಚ",
+    "scientific_name": "Chrysopogon zizanioides",
+    "category": [
+      "outdoor",
+      "sun",
+      "medicinal",
+      "grass"
+    ],
+    "placement": "sun",
+    "origin": "Indian subcontinent",
+    "benefits": [
+      "Fragrant roots",
+      "Soil binding",
+      "Erosion control"
+    ],
+    "description": "A deep-rooted aromatic grass used for soil stabilization and fragrant roots. Vetiver is useful on slopes and sunny open ground.",
+    "image": "/images/vetiver.jpg"
+  },
+  {
+    "id": 75,
+    "name": "Giloy",
+    "kannada_name": "ಅಮೃತಬಳ್ಳಿ",
+    "scientific_name": "Tinospora cordifolia",
+    "category": [
+      "outdoor",
+      "sun",
+      "shade",
+      "medicinal"
+    ],
+    "placement": "sun",
+    "origin": "Indian subcontinent",
+    "benefits": [
+      "Medicinal climber",
+      "Hardy growth",
+      "Trellis plant"
+    ],
+    "description": "A hardy medicinal climber with heart-shaped leaves. Giloy can be trained over supports in sunny or lightly shaded home gardens.",
+    "image": "/images/giloy.jpg"
+  },
+  {
+    "id": 76,
+    "name": "Shatavari",
+    "kannada_name": "ಶತಾವರಿ",
+    "scientific_name": "Asparagus racemosus",
+    "category": [
+      "outdoor",
+      "sun",
+      "shade",
+      "medicinal"
+    ],
+    "placement": "shade",
+    "origin": "South Asia",
+    "benefits": [
+      "Medicinal roots",
+      "Climbing habit",
+      "Fine foliage"
+    ],
+    "description": "A traditional medicinal climber with fine foliage and tuberous roots. It grows well in partial shade with support and drainage.",
+    "image": "/images/shatavari.jpg"
+  },
+  {
+    "id": 77,
+    "name": "Amla",
+    "kannada_name": "ನೆಲ್ಲಿಕಾಯಿ",
+    "scientific_name": "Phyllanthus emblica",
+    "category": [
+      "outdoor",
+      "sun",
+      "fruit",
+      "medicinal"
+    ],
+    "placement": "sun",
+    "origin": "Indian subcontinent",
+    "benefits": [
+      "Vitamin-rich fruit",
+      "Medicinal value",
+      "Hardy tree"
+    ],
+    "description": "A hardy fruit tree valued for sour fruits used in food and traditional preparations. Amla suits sunny gardens and farm boundaries.",
+    "image": "/images/amla.jpg"
+  },
+  {
+    "id": 78,
+    "name": "Arjuna",
+    "kannada_name": "ಅರ್ಜುನ",
+    "scientific_name": "Terminalia arjuna",
+    "category": [
+      "outdoor",
+      "sun",
+      "tree",
+      "medicinal"
+    ],
+    "placement": "sun",
+    "origin": "Indian subcontinent",
+    "benefits": [
+      "Shade tree",
+      "Medicinal bark",
+      "Riverbank planting"
+    ],
+    "description": "A large native tree often planted near water bodies and avenues. Arjuna needs open space and develops a strong spreading crown.",
+    "image": "/images/arjuna.jpg"
+  },
+  {
+    "id": 79,
+    "name": "Peepal",
+    "kannada_name": "ಅಶ್ವತ್ಥ",
+    "scientific_name": "Ficus religiosa",
+    "category": [
+      "outdoor",
+      "sun",
+      "tree",
+      "sacred"
+    ],
+    "placement": "sun",
+    "origin": "Indian subcontinent",
+    "benefits": [
+      "Sacred tree",
+      "Large shade",
+      "Bird friendly"
+    ],
+    "description": "A sacred fig tree with heart-shaped leaves and a wide canopy. Peepal is best for large open spaces, temples, and community landscapes.",
+    "image": "/images/peepal.jpg"
+  },
+  {
+    "id": 80,
+    "name": "Banyan",
+    "kannada_name": "ಆಲದ ಮರ",
+    "scientific_name": "Ficus benghalensis",
+    "category": [
+      "outdoor",
+      "sun",
+      "tree",
+      "sacred"
+    ],
+    "placement": "sun",
+    "origin": "Indian subcontinent",
+    "benefits": [
+      "Massive shade",
+      "Bird habitat",
+      "Sacred value"
+    ],
+    "description": "A majestic native fig with aerial roots and a broad canopy. Banyan requires very large spaces and is unsuitable for small plots.",
+    "image": "/images/banyan.jpg"
+  },
+  {
+    "id": 81,
+    "name": "Ashoka Tree",
+    "kannada_name": "ಅಶೋಕ",
+    "scientific_name": "Saraca asoca",
+    "category": [
+      "outdoor",
+      "sun",
+      "shade",
+      "tree"
+    ],
+    "placement": "shade",
+    "origin": "Indian subcontinent and Southeast Asia",
+    "benefits": [
+      "Sacred tree",
+      "Orange flowers",
+      "Evergreen shade"
+    ],
+    "description": "A graceful evergreen tree with clusters of orange flowers. True Ashoka suits protected gardens with partial shade and moisture.",
+    "image": "/images/ashoka-tree.jpg"
+  },
+  {
+    "id": 82,
+    "name": "Indian Mast Tree",
+    "kannada_name": "ಕೂಪದ ಮರ",
+    "scientific_name": "Monoon longifolium",
+    "category": [
+      "outdoor",
+      "sun",
+      "tree",
+      "ornamental"
+    ],
+    "placement": "sun",
+    "origin": "Indian subcontinent and Sri Lanka",
+    "benefits": [
+      "Columnar form",
+      "Screening",
+      "Avenue planting"
+    ],
+    "description": "A tall narrow evergreen tree often used for screening and avenues. It is useful where vertical green structure is needed.",
+    "image": "/images/indian-mast-tree.jpg"
+  },
+  {
+    "id": 83,
+    "name": "Sandalwood",
+    "kannada_name": "ಶ್ರೀಗಂಧ",
+    "scientific_name": "Santalum album",
+    "category": [
+      "outdoor",
+      "sun",
+      "tree",
+      "medicinal"
+    ],
+    "placement": "sun",
+    "origin": "Indian subcontinent",
+    "benefits": [
+      "Fragrant wood",
+      "Cultural value",
+      "Native tree"
+    ],
+    "description": "A valued native tree known for fragrant heartwood. Sandalwood grows as a hemi-parasite and benefits from nearby host plants.",
+    "image": "/images/sandalwood.jpg"
+  },
+  {
+    "id": 84,
+    "name": "Teak",
+    "kannada_name": "ತೇಗ",
+    "scientific_name": "Tectona grandis",
+    "category": [
+      "outdoor",
+      "sun",
+      "tree",
+      "timber"
+    ],
+    "placement": "sun",
+    "origin": "South and Southeast Asia",
+    "benefits": [
+      "Timber tree",
+      "Large leaves",
+      "Drought tolerant"
+    ],
+    "description": "A large deciduous timber tree for farms and spacious landscapes. Teak requires full sun and room for deep rooting and canopy growth.",
+    "image": "/images/teak.jpg"
+  },
+  {
+    "id": 85,
+    "name": "Bamboo",
+    "kannada_name": "ಬಿದಿರು",
+    "scientific_name": "Bambusa vulgaris",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "screening"
+    ],
+    "placement": "sun",
+    "origin": "Tropical Asia",
+    "benefits": [
+      "Fast screening",
+      "Windbreak",
+      "Landscape structure"
+    ],
+    "description": "A fast-growing clumping bamboo useful for screens, windbreaks, and tropical landscapes. Give it space and manage clump spread.",
+    "image": "/images/bamboo.jpg"
+  },
+  {
+    "id": 86,
+    "name": "Pongamia",
+    "kannada_name": "ಹೊಂಗೆ",
+    "scientific_name": "Millettia pinnata",
+    "category": [
+      "outdoor",
+      "sun",
+      "tree",
+      "native"
+    ],
+    "placement": "sun",
+    "origin": "South and Southeast Asia",
+    "benefits": [
+      "Shade tree",
+      "Nitrogen fixing",
+      "Avenue planting"
+    ],
+    "description": "A hardy native tree suitable for roadsides, farms, and dry landscapes. Pongamia gives shade and tolerates heat once established.",
+    "image": "/images/pongamia.jpg"
+  },
+  {
+    "id": 87,
+    "name": "Jamun",
+    "kannada_name": "ನೇರಳೆ",
+    "scientific_name": "Syzygium cumini",
+    "category": [
+      "outdoor",
+      "sun",
+      "fruit",
+      "tree"
+    ],
+    "placement": "sun",
+    "origin": "Indian subcontinent and Southeast Asia",
+    "benefits": [
+      "Edible fruit",
+      "Shade tree",
+      "Bird friendly"
+    ],
+    "description": "A large evergreen fruit tree with purple berries. Jamun suits parks, farm edges, and spacious gardens with sunny exposure.",
+    "image": "/images/jamun.jpg"
+  },
+  {
+    "id": 88,
+    "name": "Mango",
+    "kannada_name": "ಮಾವು",
+    "scientific_name": "Mangifera indica",
+    "category": [
+      "outdoor",
+      "sun",
+      "fruit",
+      "tree"
+    ],
+    "placement": "sun",
+    "origin": "Indian subcontinent",
+    "benefits": [
+      "Edible fruit",
+      "Shade tree",
+      "Long lived"
+    ],
+    "description": "A beloved fruit tree for warm sunny regions. Mango needs open space, deep soil, and seasonal pruning for healthy fruiting.",
+    "image": "/images/mango.jpg"
+  },
+  {
+    "id": 89,
+    "name": "Guava",
+    "kannada_name": "ಪೇರಳೆ",
+    "scientific_name": "Psidium guajava",
+    "category": [
+      "outdoor",
+      "sun",
+      "fruit",
+      "tree"
+    ],
+    "placement": "sun",
+    "origin": "Tropical Americas",
+    "benefits": [
+      "Edible fruit",
+      "Container possible",
+      "Hardy growth"
+    ],
+    "description": "A hardy fruit tree that can be grown in gardens or large containers. Guava fruits well in sun with pruning and regular feeding.",
+    "image": "/images/guava.jpg"
+  },
+  {
+    "id": 90,
+    "name": "Coconut",
+    "kannada_name": "ತೆಂಗು",
+    "scientific_name": "Cocos nucifera",
+    "category": [
+      "outdoor",
+      "sun",
+      "fruit",
+      "palm"
+    ],
+    "placement": "sun",
+    "origin": "Indo-Pacific tropics",
+    "benefits": [
+      "Edible nuts",
+      "Tropical look",
+      "Multipurpose palm"
+    ],
+    "description": "A tall tropical palm valued for nuts and landscape character. Coconut needs sun, warmth, and adequate water during dry periods.",
+    "image": "/images/coconut.jpg"
+  },
+  {
+    "id": 91,
+    "name": "Banana",
+    "kannada_name": "ಬಾಳೆ",
+    "scientific_name": "Musa paradisiaca",
+    "category": [
+      "outdoor",
+      "sun",
+      "fruit",
+      "tropical"
+    ],
+    "placement": "sun",
+    "origin": "Southeast Asia",
+    "benefits": [
+      "Edible fruit",
+      "Large leaves",
+      "Fast growth"
+    ],
+    "description": "A fast-growing tropical plant with large leaves and fruiting stems. Banana needs rich soil, sun, and regular watering.",
+    "image": "/images/banana.jpg"
+  },
+  {
+    "id": 92,
+    "name": "Papaya",
+    "kannada_name": "ಪಪ್ಪಾಯಿ",
+    "scientific_name": "Carica papaya",
+    "category": [
+      "outdoor",
+      "sun",
+      "fruit",
+      "tree"
+    ],
+    "placement": "sun",
+    "origin": "Central America",
+    "benefits": [
+      "Edible fruit",
+      "Quick fruiting",
+      "Kitchen garden"
+    ],
+    "description": "A quick-growing fruit plant for sunny home gardens. Papaya prefers well-drained soil and protection from strong winds.",
+    "image": "/images/papaya.jpg"
+  },
+  {
+    "id": 93,
+    "name": "Jackfruit",
+    "kannada_name": "ಹಲಸು",
+    "scientific_name": "Artocarpus heterophyllus",
+    "category": [
+      "outdoor",
+      "sun",
+      "fruit",
+      "tree"
+    ],
+    "placement": "sun",
+    "origin": "Western Ghats and Southeast Asia",
+    "benefits": [
+      "Large fruit",
+      "Shade tree",
+      "Evergreen canopy"
+    ],
+    "description": "A large evergreen fruit tree suited to warm humid regions. Jackfruit needs open space and deep soil to develop well.",
+    "image": "/images/jackfruit.jpg"
+  },
+  {
+    "id": 94,
+    "name": "Pomegranate",
+    "kannada_name": "ದಾಳಿಂಬೆ",
+    "scientific_name": "Punica granatum",
+    "category": [
+      "outdoor",
+      "sun",
+      "fruit",
+      "shrub"
+    ],
+    "placement": "sun",
+    "origin": "Iran to northern India",
+    "benefits": [
+      "Edible fruit",
+      "Drought tolerant",
+      "Ornamental flowers"
+    ],
+    "description": "A hardy fruit shrub or small tree with orange-red flowers. Pomegranate performs well in sunny, well-drained garden spaces.",
+    "image": "/images/pomegranate.jpg"
+  },
+  {
+    "id": 95,
+    "name": "Drumstick Tree",
+    "kannada_name": "ನುಗ್ಗೆ",
+    "scientific_name": "Moringa oleifera",
+    "category": [
+      "outdoor",
+      "sun",
+      "vegetable",
+      "medicinal"
+    ],
+    "placement": "sun",
+    "origin": "Indian subcontinent",
+    "benefits": [
+      "Edible pods",
+      "Nutritious leaves",
+      "Fast growth"
+    ],
+    "description": "A fast-growing tree grown for pods, leaves, and flowers. Drumstick thrives in sunny, well-drained soil and responds well to pruning.",
+    "image": "/images/drumstick-tree.jpg"
+  },
+  {
+    "id": 96,
+    "name": "Lemon",
+    "kannada_name": "ನಿಂಬೆ",
+    "scientific_name": "Citrus limon",
+    "category": [
+      "outdoor",
+      "sun",
+      "fruit",
+      "container"
+    ],
+    "placement": "sun",
+    "origin": "Asia",
+    "benefits": [
+      "Edible fruit",
+      "Aromatic leaves",
+      "Container friendly"
+    ],
+    "description": "A productive citrus plant for sunny yards and large pots. Lemon needs feeding, drainage, and sunlight for healthy fruiting.",
+    "image": "/images/lemon.jpg"
+  },
+  {
+    "id": 97,
+    "name": "Sapota",
+    "kannada_name": "ಚಿಕ್ಕು",
+    "scientific_name": "Manilkara zapota",
+    "category": [
+      "outdoor",
+      "sun",
+      "fruit",
+      "tree"
+    ],
+    "placement": "sun",
+    "origin": "Mexico and Central America",
+    "benefits": [
+      "Sweet fruit",
+      "Evergreen tree",
+      "Drought tolerant"
+    ],
+    "description": "A hardy evergreen fruit tree with sweet brown fruits. Sapota suits warm sunny gardens and farm plots with moderate watering.",
+    "image": "/images/sapota.jpg"
+  },
+  {
+    "id": 98,
+    "name": "Custard Apple",
+    "kannada_name": "ಸೀತಾಫಲ",
+    "scientific_name": "Annona squamosa",
+    "category": [
+      "outdoor",
+      "sun",
+      "fruit",
+      "tree"
+    ],
+    "placement": "sun",
+    "origin": "Tropical Americas",
+    "benefits": [
+      "Sweet fruit",
+      "Drought tolerant",
+      "Small tree"
+    ],
+    "description": "A small fruit tree suited to dry sunny areas. Custard Apple produces sweet segmented fruits and needs minimal care once established.",
+    "image": "/images/custard-apple.jpg"
+  },
+  {
+    "id": 99,
+    "name": "Mulberry",
+    "kannada_name": "ಹಿಪ್ಪುನೇರಳೆ",
+    "scientific_name": "Morus alba",
+    "category": [
+      "outdoor",
+      "sun",
+      "fruit",
+      "tree"
+    ],
+    "placement": "sun",
+    "origin": "China",
+    "benefits": [
+      "Edible berries",
+      "Silkworm leaves",
+      "Prunable tree"
+    ],
+    "description": "A fast-growing tree grown for leaves and berries. Mulberry can be pruned as a small garden tree or hedge in sunny spaces.",
+    "image": "/images/mulberry.jpg"
+  },
+  {
+    "id": 100,
+    "name": "Poinsettia",
+    "kannada_name": "ಪೊಯಿನ್ಸೆಟ್ಟಿಯಾ",
+    "scientific_name": "Euphorbia pulcherrima",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "shrub"
+    ],
+    "placement": "sun",
+    "origin": "Mexico and Central America",
+    "benefits": [
+      "Colorful bracts",
+      "Winter display",
+      "Container friendly"
+    ],
+    "description": "A festive shrub known for bright red, pink, or cream bracts. Poinsettia grows well in sunny beds and large pots.",
+    "image": "/images/poinsettia.jpg"
+  },
+  {
+    "id": 101,
+    "name": "Mussaenda",
+    "kannada_name": "ಮುಸ್ಸೆಂಡಾ",
+    "scientific_name": "Mussaenda erythrophylla",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "shrub"
+    ],
+    "placement": "sun",
+    "origin": "Tropical Africa",
+    "benefits": [
+      "Showy bracts",
+      "Shrub border",
+      "Tropical color"
+    ],
+    "description": "A tropical ornamental shrub with colorful enlarged bracts. Mussaenda is attractive in sunny borders and hospitality landscapes.",
+    "image": "/images/mussaenda.jpg"
+  },
+  {
+    "id": 102,
+    "name": "Duranta",
+    "kannada_name": "ದುರಂತಾ",
+    "scientific_name": "Duranta erecta",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "hedge"
+    ],
+    "placement": "sun",
+    "origin": "Tropical Americas",
+    "benefits": [
+      "Hedge plant",
+      "Golden foliage",
+      "Purple flowers"
+    ],
+    "description": "A versatile shrub used for hedges, borders, and topiary. Duranta tolerates pruning and gives bright foliage in sunny locations.",
+    "image": "/images/duranta.jpg"
+  },
+  {
+    "id": 103,
+    "name": "Thuja",
+    "kannada_name": "ಥೂಜಾ",
+    "scientific_name": "Platycladus orientalis",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "conifer"
+    ],
+    "placement": "sun",
+    "origin": "East Asia",
+    "benefits": [
+      "Formal shape",
+      "Screening",
+      "Container friendly"
+    ],
+    "description": "A conifer-like evergreen used in formal gardens and entrance planters. Thuja prefers sun and well-drained soil.",
+    "image": "/images/thuja.jpg"
+  },
+  {
+    "id": 104,
+    "name": "Silver Oak",
+    "kannada_name": "ಬೆಳ್ಳಿ ಓಕ್",
+    "scientific_name": "Grevillea robusta",
+    "category": [
+      "outdoor",
+      "sun",
+      "tree",
+      "ornamental"
+    ],
+    "placement": "sun",
+    "origin": "Australia",
+    "benefits": [
+      "Tall shade",
+      "Avenue planting",
+      "Windbreak"
+    ],
+    "description": "A tall, fast-growing tree with fern-like foliage and golden flowers. Silver Oak suits avenues, farms, and spacious landscapes.",
+    "image": "/images/silver-oak.jpg"
+  },
+  {
+    "id": 105,
+    "name": "Norfolk Island Pine",
+    "kannada_name": "ನಾರ್ಫೋಕ್ ಪೈನ್",
+    "scientific_name": "Araucaria heterophylla",
+    "category": [
+      "indoor",
+      "outdoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "Norfolk Island",
+    "benefits": [
+      "Symmetrical form",
+      "Indoor decor",
+      "Landscape accent"
+    ],
+    "description": "A symmetrical evergreen often used as an indoor or patio accent. It prefers bright indirect light and evenly moist soil.",
+    "image": "/images/norfolk-island-pine.jpg"
+  },
+  {
+    "id": 106,
+    "name": "Lady Palm",
+    "kannada_name": "ಲೇಡಿ ಪಾಮ್",
+    "scientific_name": "Rhapis excelsa",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental",
+      "palm"
+    ],
+    "placement": "shade",
+    "origin": "Southern China and Taiwan",
+    "benefits": [
+      "Indoor palm",
+      "Screening",
+      "Low light tolerant"
+    ],
+    "description": "A refined clumping palm with fan-shaped leaves. Lady Palm is excellent for interiors, verandas, and shaded entry areas.",
+    "image": "/images/lady-palm.jpg"
+  },
+  {
+    "id": 107,
+    "name": "Bottle Palm",
+    "kannada_name": "ಬಾಟಲ್ ಪಾಮ್",
+    "scientific_name": "Hyophorbe lagenicaulis",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "palm"
+    ],
+    "placement": "sun",
+    "origin": "Mascarene Islands",
+    "benefits": [
+      "Sculptural trunk",
+      "Tropical accent",
+      "Container possible"
+    ],
+    "description": "A decorative palm with a swollen bottle-shaped trunk. Bottle Palm suits sunny lawns, courtyards, and large planters.",
+    "image": "/images/bottle-palm.jpg"
+  },
+  {
+    "id": 108,
+    "name": "Royal Palm",
+    "kannada_name": "ರಾಯಲ್ ಪಾಮ್",
+    "scientific_name": "Roystonea regia",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "palm"
+    ],
+    "placement": "sun",
+    "origin": "Caribbean region",
+    "benefits": [
+      "Avenue palm",
+      "Tall elegance",
+      "Tropical look"
+    ],
+    "description": "A tall elegant palm used for grand avenues and large landscapes. Royal Palm needs full sun, space, and regular watering when young.",
+    "image": "/images/royal-palm.jpg"
+  },
+  {
+    "id": 109,
+    "name": "Sago Palm",
+    "kannada_name": "ಸೈಕಸ್ ಪಾಮ್",
+    "scientific_name": "Cycas revoluta",
+    "category": [
+      "outdoor",
+      "sun",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "sun",
+    "origin": "Japan",
+    "benefits": [
+      "Architectural foliage",
+      "Slow growing",
+      "Container friendly"
+    ],
+    "description": "A slow-growing cycad with stiff glossy fronds. Sago Palm is useful in pots, rock gardens, and formal entrance planting.",
+    "image": "/images/sago-palm.jpg"
+  },
+  {
+    "id": 110,
+    "name": "Weeping Fig",
+    "kannada_name": "ಫೈಕಸ್ ಬೆಂಜಮಿನಾ",
+    "scientific_name": "Ficus benjamina",
+    "category": [
+      "indoor",
+      "outdoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "South and Southeast Asia and Australia",
+    "benefits": [
+      "Indoor tree",
+      "Screening",
+      "Fine foliage"
+    ],
+    "description": "A graceful fig with drooping branches and small leaves. It can be grown as an indoor tree or clipped outdoor screen.",
+    "image": "/images/weeping-fig.jpg"
+  },
+  {
+    "id": 111,
+    "name": "Umbrella Plant",
+    "kannada_name": "ಅಂಬ್ರೆಲ್ಲಾ ಪ್ಲಾಂಟ್",
+    "scientific_name": "Schefflera arboricola",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "Taiwan and Hainan",
+    "benefits": [
+      "Easy care",
+      "Glossy foliage",
+      "Indoor shrub"
+    ],
+    "description": "A compact indoor shrub with umbrella-like leaflets. Schefflera grows well in bright shade and can be pruned to shape.",
+    "image": "/images/umbrella-plant.jpg"
+  },
+  {
+    "id": 112,
+    "name": "Bamboo Palm",
+    "kannada_name": "ಬಾಂಬೂ ಪಾಮ್",
+    "scientific_name": "Chamaedorea seifrizii",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental",
+      "palm"
+    ],
+    "placement": "shade",
+    "origin": "Mexico and Central America",
+    "benefits": [
+      "Indoor palm",
+      "Soft screening",
+      "Air purifying"
+    ],
+    "description": "A slender indoor palm with cane-like stems. Bamboo Palm is useful for soft screening in offices, lobbies, and shaded patios.",
+    "image": "/images/bamboo-palm.jpg"
+  },
+  {
+    "id": 113,
+    "name": "English Ivy",
+    "kannada_name": "ಇಂಗ್ಲಿಷ್ ಐವಿ",
+    "scientific_name": "Hedera helix",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental",
+      "climber"
+    ],
+    "placement": "shade",
+    "origin": "Europe and Western Asia",
+    "benefits": [
+      "Trailing foliage",
+      "Hanging baskets",
+      "Wall coverage"
+    ],
+    "description": "A trailing or climbing plant for cool shaded spaces. English Ivy works in hanging baskets and indoor shelves with bright indirect light.",
+    "image": "/images/english-ivy.jpg"
+  },
+  {
+    "id": 114,
+    "name": "Asparagus Fern",
+    "kannada_name": "ಅಸ್ಪ್ಯಾರಗಸ್ ಫರ್ನ್",
+    "scientific_name": "Asparagus setaceus",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental",
+      "fern"
+    ],
+    "placement": "shade",
+    "origin": "Southern Africa",
+    "benefits": [
+      "Fine foliage",
+      "Hanging baskets",
+      "Bouquet filler"
+    ],
+    "description": "A delicate-looking foliage plant with feathery stems. It suits shaded balconies, hanging baskets, and indoor arrangements.",
+    "image": "/images/asparagus-fern.jpg"
+  },
+  {
+    "id": 115,
+    "name": "Sweet Basil",
+    "kannada_name": "ಸ್ವೀಟ್ ಬೇಸಿಲ್",
+    "scientific_name": "Ocimum basilicum",
+    "category": [
+      "outdoor",
+      "sun",
+      "herb",
+      "culinary"
+    ],
+    "placement": "sun",
+    "origin": "Tropical Asia and Africa",
+    "benefits": [
+      "Culinary leaves",
+      "Aromatic",
+      "Pollinator friendly"
+    ],
+    "description": "A fragrant culinary herb for sunny kitchen gardens. Basil responds well to regular pinching and grows easily in containers.",
+    "image": "/images/sweet-basil.jpg"
+  },
+  {
+    "id": 116,
+    "name": "Rosemary",
+    "kannada_name": "ರೋಸ್ಮೇರಿ",
+    "scientific_name": "Salvia rosmarinus",
+    "category": [
+      "outdoor",
+      "sun",
+      "herb",
+      "culinary"
+    ],
+    "placement": "sun",
+    "origin": "Mediterranean region",
+    "benefits": [
+      "Aromatic leaves",
+      "Culinary herb",
+      "Drought tolerant"
+    ],
+    "description": "A woody aromatic herb that prefers sun and excellent drainage. Rosemary is suitable for pots, herb gardens, and dry sunny edges.",
+    "image": "/images/rosemary.jpg"
+  },
+  {
+    "id": 117,
+    "name": "Lavender",
+    "kannada_name": "ಲಾವೆಂಡರ್",
+    "scientific_name": "Lavandula angustifolia",
+    "category": [
+      "outdoor",
+      "sun",
+      "herb",
+      "ornamental"
+    ],
+    "placement": "sun",
+    "origin": "Mediterranean region",
+    "benefits": [
+      "Fragrant flowers",
+      "Aromatic foliage",
+      "Pollinator friendly"
+    ],
+    "description": "A fragrant herb with purple flower spikes. Lavender prefers bright sun, airy conditions, and very well-drained soil.",
+    "image": "/images/lavender.jpg"
+  },
+  {
+    "id": 118,
+    "name": "Water Lily",
+    "kannada_name": "ನೈದಿಲೆ",
+    "scientific_name": "Nymphaea nouchali",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "aquatic"
+    ],
+    "placement": "sun",
+    "origin": "South and Southeast Asia",
+    "benefits": [
+      "Aquatic flowers",
+      "Pond cover",
+      "Pollinator friendly"
+    ],
+    "description": "A beautiful aquatic plant with floating leaves and colorful flowers. Water Lily is ideal for ponds, tubs, and sunny water gardens.",
+    "image": "/images/water-lily.jpg"
+  },
+  {
+    "id": 119,
+    "name": "Parijata",
+    "kannada_name": "ಪಾರಿಜಾತ",
+    "scientific_name": "Nyctanthes arbor-tristis",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "medicinal"
+    ],
+    "placement": "sun",
+    "origin": "South and Southeast Asia",
+    "benefits": [
+      "Fragrant flowers",
+      "Sacred use",
+      "Night blooming"
+    ],
+    "description": "A small sacred tree with fragrant white-orange flowers that fall in the morning. Parijata suits sunny courtyards, temple gardens, and home landscapes.",
+    "image": "/images/parijata.jpg"
+  },
+  {
+    "id": 120,
+    "name": "Bakul",
+    "kannada_name": "ಬಕುಲ",
+    "scientific_name": "Mimusops elengi",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "tree"
+    ],
+    "placement": "sun",
+    "origin": "South and Southeast Asia",
+    "benefits": [
+      "Fragrant flowers",
+      "Shade tree",
+      "Avenue planting"
+    ],
+    "description": "An evergreen tree with small fragrant flowers and dense shade. Bakul is useful for avenues, parks, courtyards, and traditional landscapes.",
+    "image": "/images/bakul.jpg"
+  }
+]

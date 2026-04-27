@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" role="img" aria-labelledby="title desc">
+  <title id="title">Green plant placeholder</title>
+  <desc id="desc">A soft green placeholder image used when a plant photo cannot be loaded.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f0fdf4" />
+      <stop offset="1" stop-color="#dcfce7" />
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#4ade80" />
+      <stop offset="1" stop-color="#16a34a" />
+    </linearGradient>
+  </defs>
+  <rect width="960" height="720" fill="url(#bg)" />
+  <circle cx="480" cy="338" r="230" fill="#ffffff" opacity="0.55" />
+  <path d="M482 550c-20-103 4-207 78-311" fill="none" stroke="#14532d" stroke-width="24" stroke-linecap="round" />
+  <path d="M567 229c117 15 188 101 189 226-122 5-205-61-221-171-4-29 6-48 32-55Z" fill="url(#leaf)" />
+  <path d="M430 356c-91-68-110-164-50-272 105 53 143 143 91 239-14 25-22 34-41 33Z" fill="#86efac" />
+  <path d="M469 546c-50-75-133-110-247-95 27 103 105 160 210 148 30-4 45-19 37-53Z" fill="#22c55e" />
+  <rect x="330" y="552" width="300" height="46" rx="23" fill="#c87953" />
+  <path d="M360 586h240l-38 82H398l-38-82Z" fill="#b66f4c" />
+</svg>
