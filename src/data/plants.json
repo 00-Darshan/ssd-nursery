@@ -2498,5 +2498,1679 @@
     ],
     "description": "An evergreen tree with small fragrant flowers and dense shade. Bakul is useful for avenues, parks, courtyards, and traditional landscapes.",
     "image": "/images/bakul.jpg"
+  },
+  {
+    "id": 121,
+    "name": "Monstera Adansonii",
+    "kannada_name": "ಅಡಾನ್ಸೋನಿ ಮಾನ್ಸ್ಟೆರಾ",
+    "scientific_name": "Monstera adansonii",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental",
+      "climber"
+    ],
+    "placement": "shade",
+    "origin": "Central and South America",
+    "benefits": [
+      "Fenestrated leaves",
+      "Climbing or trailing",
+      "Statement foliage"
+    ],
+    "description": "A fashionable indoor aroid with naturally split leaves. It looks attractive on moss poles, wall supports, bookshelves, and hanging planters in bright indirect light.",
+    "image": "/images/monstera-adansonii.jpg"
+  },
+  {
+    "id": 122,
+    "name": "Mini Monstera",
+    "kannada_name": "ಮಿನಿ ಮಾನ್ಸ್ಟೆರಾ",
+    "scientific_name": "Rhaphidophora tetrasperma",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental",
+      "climber"
+    ],
+    "placement": "shade",
+    "origin": "Southern Thailand and Malaysia",
+    "benefits": [
+      "Compact climber",
+      "Fast growing",
+      "Modern foliage"
+    ],
+    "description": "A compact climbing plant with split leaves that resemble a smaller Monstera. It is ideal for apartments, office corners, and vertical indoor displays.",
+    "image": "/images/mini-monstera.jpg"
+  },
+  {
+    "id": 123,
+    "name": "Satin Pothos",
+    "kannada_name": "ಸಾಟಿನ್ ಮನಿ ಪ್ಲಾಂಟ್",
+    "scientific_name": "Scindapsus pictus",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental",
+      "climber"
+    ],
+    "placement": "shade",
+    "origin": "Southeast Asia",
+    "benefits": [
+      "Silver variegation",
+      "Trailing habit",
+      "Easy care"
+    ],
+    "description": "A trailing indoor plant with velvety green leaves marked by silver patches. It suits hanging baskets, shelf edges, and shaded balcony corners.",
+    "image": "/images/satin-pothos.jpg"
+  },
+  {
+    "id": 124,
+    "name": "Philodendron Birkin",
+    "kannada_name": "ಬಿರ್ಕಿನ್ ಫಿಲೋಡೆಂಡ್ರನ್",
+    "scientific_name": "Philodendron 'Birkin'",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "Cultivated hybrid",
+    "benefits": [
+      "Striped foliage",
+      "Compact growth",
+      "Decorative table plant"
+    ],
+    "description": "A premium indoor philodendron with dark leaves and creamy pinstripes. It stays compact and works well on desks, counters, and side tables.",
+    "image": "/images/philodendron-birkin.jpg"
+  },
+  {
+    "id": 125,
+    "name": "Philodendron Brasil",
+    "kannada_name": "ಬ್ರೆಜಿಲ್ ಫಿಲೋಡೆಂಡ್ರನ್",
+    "scientific_name": "Philodendron hederaceum 'Brasil'",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental",
+      "climber"
+    ],
+    "placement": "shade",
+    "origin": "Cultivated cultivar from tropical American species",
+    "benefits": [
+      "Bright variegation",
+      "Trailing foliage",
+      "Easy propagation"
+    ],
+    "description": "A colorful trailing philodendron with heart-shaped leaves streaked in lime and yellow. It brightens shelves, partitions, and hanging baskets.",
+    "image": "/images/philodendron-brasil.jpg"
+  },
+  {
+    "id": 126,
+    "name": "Pink Princess Philodendron",
+    "kannada_name": "ಪಿಂಕ್ ಪ್ರಿನ್ಸೆಸ್ ಫಿಲೋಡೆಂಡ್ರನ್",
+    "scientific_name": "Philodendron erubescens 'Pink Princess'",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "Cultivated cultivar from tropical American species",
+    "benefits": [
+      "Pink variegation",
+      "Collector plant",
+      "Decorative foliage"
+    ],
+    "description": "A sought-after indoor plant with dark leaves splashed with pink variegation. It needs bright indirect light to maintain attractive coloration.",
+    "image": "/images/pink-princess-philodendron.jpg"
+  },
+  {
+    "id": 127,
+    "name": "Philodendron Xanadu",
+    "kannada_name": "ಜೆನಾಡು ಫಿಲೋಡೆಂಡ್ರನ್",
+    "scientific_name": "Thaumatophyllum xanadu",
+    "category": [
+      "indoor",
+      "outdoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "Brazil",
+    "benefits": [
+      "Lush foliage",
+      "Compact landscape plant",
+      "Low light tolerant"
+    ],
+    "description": "A dense foliage plant with deeply lobed leaves. It performs well in indoor lobbies, shaded patios, and tropical landscape borders.",
+    "image": "/images/philodendron-xanadu.jpg"
+  },
+  {
+    "id": 128,
+    "name": "Tree Philodendron",
+    "kannada_name": "ಸೆಲ್ಲೌಮ್ ಫಿಲೋಡೆಂಡ್ರನ್",
+    "scientific_name": "Thaumatophyllum bipinnatifidum",
+    "category": [
+      "indoor",
+      "outdoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "South America",
+    "benefits": [
+      "Large tropical leaves",
+      "Bold focal plant",
+      "Patio friendly"
+    ],
+    "description": "A large tropical foliage plant with dramatic lobed leaves. It is best for spacious interiors, resorts, shaded courtyards, and big planters.",
+    "image": "/images/tree-philodendron.jpg"
+  },
+  {
+    "id": 129,
+    "name": "Alocasia Polly",
+    "kannada_name": "ಅಲೋಕೇಶಿಯಾ ಪೊಲಿ",
+    "scientific_name": "Alocasia × amazonica 'Polly'",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "Cultivated hybrid",
+    "benefits": [
+      "Arrowhead leaves",
+      "Architectural look",
+      "Compact accent"
+    ],
+    "description": "A striking indoor plant with dark arrow-shaped leaves and pale veins. It prefers warmth, humidity, and bright indirect light.",
+    "image": "/images/alocasia-polly.jpg"
+  },
+  {
+    "id": 130,
+    "name": "Alocasia Black Velvet",
+    "kannada_name": "ಕಪ್ಪು ವೆಲ್ವೆಟ್ ಅಲೋಕೇಶಿಯಾ",
+    "scientific_name": "Alocasia reginula",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "Borneo",
+    "benefits": [
+      "Velvety dark leaves",
+      "Collector plant",
+      "Compact size"
+    ],
+    "description": "A compact exotic plant with nearly black velvety leaves and bright veins. It is excellent for premium indoor plant collections.",
+    "image": "/images/alocasia-black-velvet.jpg"
+  },
+  {
+    "id": 131,
+    "name": "Alocasia Frydek",
+    "kannada_name": "ಫ್ರೈಡೆಕ್ ಅಲೋಕೇಶಿಯಾ",
+    "scientific_name": "Alocasia micholitziana 'Frydek'",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "Philippines",
+    "benefits": [
+      "Velvet foliage",
+      "White vein pattern",
+      "Statement plant"
+    ],
+    "description": "A tropical indoor plant known for soft green velvet leaves and bright veins. It makes a strong visual accent in humid, bright interiors.",
+    "image": "/images/alocasia-frydek.jpg"
+  },
+  {
+    "id": 132,
+    "name": "Elephant Ear Taro",
+    "kannada_name": "ಕೆಸು ಎಲೆ",
+    "scientific_name": "Colocasia esculenta",
+    "category": [
+      "outdoor",
+      "sun",
+      "shade",
+      "ornamental",
+      "edible"
+    ],
+    "placement": "shade",
+    "origin": "Tropical Asia",
+    "benefits": [
+      "Large leaves",
+      "Tropical effect",
+      "Moisture loving"
+    ],
+    "description": "A bold foliage plant with large heart-shaped leaves. It suits moist garden beds, pond edges, shaded courtyards, and large containers.",
+    "image": "/images/elephant-ear-taro.jpg"
+  },
+  {
+    "id": 133,
+    "name": "Caladium",
+    "kannada_name": "ಕ್ಯಾಲೇಡಿಯಂ",
+    "scientific_name": "Caladium bicolor",
+    "category": [
+      "indoor",
+      "outdoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "South America",
+    "benefits": [
+      "Colorful leaves",
+      "Seasonal display",
+      "Shade color"
+    ],
+    "description": "A decorative foliage plant with heart-shaped leaves in red, pink, white, and green patterns. It is useful for shaded beds and indoor planters.",
+    "image": "/images/caladium.jpg"
+  },
+  {
+    "id": 134,
+    "name": "Stromanthe Triostar",
+    "kannada_name": "ಟ್ರೈಯೋಸ್ಟಾರ್ ಸ್ಟ್ರೋಮ್ಯಾಂಥೆ",
+    "scientific_name": "Stromanthe sanguinea 'Triostar'",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "Brazil",
+    "benefits": [
+      "Pink variegation",
+      "Prayer plant family",
+      "Decorative foliage"
+    ],
+    "description": "A colorful indoor foliage plant with green, cream, and pink leaves. It prefers humidity and indirect light, making it ideal for bright interiors.",
+    "image": "/images/stromanthe-triostar.jpg"
+  },
+  {
+    "id": 135,
+    "name": "Prayer Plant",
+    "kannada_name": "ಪ್ರಾರ್ಥನೆ ಗಿಡ",
+    "scientific_name": "Maranta leuconeura",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "Brazil",
+    "benefits": [
+      "Patterned leaves",
+      "Pet friendly appeal",
+      "Compact habit"
+    ],
+    "description": "A low-growing indoor plant with patterned leaves that fold upward at night. It works well on tables, shelves, and humid indoor corners.",
+    "image": "/images/prayer-plant.jpg"
+  },
+  {
+    "id": 136,
+    "name": "Rattlesnake Calathea",
+    "kannada_name": "ರಾಟಲ್ ಸ್ನೇಕ್ ಕ್ಯಾಲಥಿಯಾ",
+    "scientific_name": "Goeppertia insignis",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "Brazil",
+    "benefits": [
+      "Patterned foliage",
+      "Humidity loving",
+      "Decorative leaves"
+    ],
+    "description": "A popular indoor plant with long wavy leaves and dark markings. It adds texture to bedrooms, living rooms, and shaded balconies.",
+    "image": "/images/rattlesnake-calathea.jpg"
+  },
+  {
+    "id": 137,
+    "name": "Calathea Orbifolia",
+    "kannada_name": "ಆರ್ಬಿಫೋಲಿಯಾ ಕ್ಯಾಲಥಿಯಾ",
+    "scientific_name": "Goeppertia orbifolia",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "Bolivia",
+    "benefits": [
+      "Round striped leaves",
+      "Premium foliage",
+      "Soft interior look"
+    ],
+    "description": "A showy indoor foliage plant with large round leaves and silver-green stripes. It prefers stable moisture, humidity, and filtered light.",
+    "image": "/images/calathea-orbifolia.jpg"
+  },
+  {
+    "id": 138,
+    "name": "Never Never Plant",
+    "kannada_name": "ನೆವರ್ ನೆವರ್ ಪ್ಲಾಂಟ್",
+    "scientific_name": "Ctenanthe oppenheimiana",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "Brazil",
+    "benefits": [
+      "Variegated foliage",
+      "Shade tolerant",
+      "Tropical texture"
+    ],
+    "description": "A graceful indoor plant with long patterned leaves and purple undersides. It is useful for brightening shaded indoor corners.",
+    "image": "/images/never-never-plant.jpg"
+  },
+  {
+    "id": 139,
+    "name": "Watermelon Peperomia",
+    "kannada_name": "ವಾಟರ್ಮೆಲನ್ ಪೆಪೆರೋಮಿಯಾ",
+    "scientific_name": "Peperomia argyreia",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "Brazil",
+    "benefits": [
+      "Watermelon leaf pattern",
+      "Small space friendly",
+      "Tabletop plant"
+    ],
+    "description": "A compact indoor plant with round leaves marked like watermelon skin. It is a favorite for desks, windowsills, and small planters.",
+    "image": "/images/watermelon-peperomia.jpg"
+  },
+  {
+    "id": 140,
+    "name": "Baby Rubber Plant",
+    "kannada_name": "ಬೇಬಿ ರಬ್ಬರ್ ಪ್ಲಾಂಟ್",
+    "scientific_name": "Peperomia obtusifolia",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "Caribbean and northern South America",
+    "benefits": [
+      "Glossy leaves",
+      "Compact habit",
+      "Low maintenance"
+    ],
+    "description": "A neat indoor plant with thick glossy leaves and a compact shape. It tolerates normal home conditions and is easy to place on tables.",
+    "image": "/images/baby-rubber-plant.jpg"
+  },
+  {
+    "id": 141,
+    "name": "Chinese Money Plant",
+    "kannada_name": "ಚೈನೀಸ್ ಮನಿ ಪ್ಲಾಂಟ್",
+    "scientific_name": "Pilea peperomioides",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "Southern China",
+    "benefits": [
+      "Round coin leaves",
+      "Easy offsets",
+      "Minimal look"
+    ],
+    "description": "A modern indoor plant with round coin-like leaves on slender stems. It is excellent for minimalist rooms, desks, and bright windows.",
+    "image": "/images/chinese-money-plant.jpg"
+  },
+  {
+    "id": 142,
+    "name": "Hoya Carnosa",
+    "kannada_name": "ಹೋಯಾ ಕಾರ್ನೋಸಾ",
+    "scientific_name": "Hoya carnosa",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental",
+      "climber"
+    ],
+    "placement": "shade",
+    "origin": "Eastern Asia and Australia",
+    "benefits": [
+      "Wax flowers",
+      "Trailing vines",
+      "Long lived"
+    ],
+    "description": "A classic wax plant with thick leaves and fragrant star-shaped flower clusters. It is suited to hanging pots and bright shaded balconies.",
+    "image": "/images/hoya-carnosa.jpg"
+  },
+  {
+    "id": 143,
+    "name": "Sweetheart Hoya",
+    "kannada_name": "ಹೃದಯ ಹೋಯಾ",
+    "scientific_name": "Hoya kerrii",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental",
+      "climber"
+    ],
+    "placement": "shade",
+    "origin": "Southeast Asia",
+    "benefits": [
+      "Heart-shaped leaves",
+      "Gift plant",
+      "Drought tolerant"
+    ],
+    "description": "A slow-growing hoya known for thick heart-shaped leaves. It is popular as a gift plant and grows best in bright indirect light.",
+    "image": "/images/sweetheart-hoya.jpg"
+  },
+  {
+    "id": 144,
+    "name": "Hoya Pubicalyx",
+    "kannada_name": "ಹೋಯಾ ಪ್ಯುಬಿಕ್ಯಾಲಿಕ್ಸ್",
+    "scientific_name": "Hoya pubicalyx",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental",
+      "climber"
+    ],
+    "placement": "shade",
+    "origin": "Philippines",
+    "benefits": [
+      "Speckled leaves",
+      "Fragrant blooms",
+      "Hanging basket friendly"
+    ],
+    "description": "A vigorous hoya with speckled foliage and attractive waxy flower clusters. It is a good choice for balconies, trellises, and hanging planters.",
+    "image": "/images/hoya-pubicalyx.jpg"
+  },
+  {
+    "id": 145,
+    "name": "String of Pearls",
+    "kannada_name": "ಮುತ್ತಿನ ಸರ ಗಿಡ",
+    "scientific_name": "Curio rowleyanus",
+    "category": [
+      "indoor",
+      "sun",
+      "shade",
+      "ornamental",
+      "succulent"
+    ],
+    "placement": "shade",
+    "origin": "Southwestern Africa",
+    "benefits": [
+      "Trailing beads",
+      "Succulent foliage",
+      "Hanging display"
+    ],
+    "description": "A unique succulent with bead-like trailing stems. It needs excellent drainage, bright light, and careful watering to avoid rot.",
+    "image": "/images/string-of-pearls.jpg"
+  },
+  {
+    "id": 146,
+    "name": "String of Hearts",
+    "kannada_name": "ಹೃದಯ ಸರ ಗಿಡ",
+    "scientific_name": "Ceropegia woodii",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental",
+      "succulent"
+    ],
+    "placement": "shade",
+    "origin": "South Africa",
+    "benefits": [
+      "Heart-shaped leaves",
+      "Long trailing stems",
+      "Low water need"
+    ],
+    "description": "A delicate trailing plant with small heart-shaped leaves and silvery patterns. It looks beautiful in hanging planters and shelf displays.",
+    "image": "/images/string-of-hearts.jpg"
+  },
+  {
+    "id": 147,
+    "name": "String of Dolphins",
+    "kannada_name": "ಡಾಲ್ಫಿನ್ ಸರ ಗಿಡ",
+    "scientific_name": "Curio × peregrinus",
+    "category": [
+      "indoor",
+      "sun",
+      "shade",
+      "ornamental",
+      "succulent"
+    ],
+    "placement": "shade",
+    "origin": "Cultivated hybrid",
+    "benefits": [
+      "Dolphin-shaped leaves",
+      "Hanging basket plant",
+      "Conversation starter"
+    ],
+    "description": "A novelty succulent with leaves shaped like tiny dolphins. It prefers bright indirect light, airy soil, and light watering.",
+    "image": "/images/string-of-dolphins.jpg"
+  },
+  {
+    "id": 148,
+    "name": "Burro's Tail",
+    "kannada_name": "ಬುರೋಸ್ ಟೇಲ್",
+    "scientific_name": "Sedum morganianum",
+    "category": [
+      "indoor",
+      "sun",
+      "ornamental",
+      "succulent"
+    ],
+    "placement": "sun",
+    "origin": "Mexico",
+    "benefits": [
+      "Trailing succulent",
+      "Low water need",
+      "Balcony friendly"
+    ],
+    "description": "A trailing succulent with thick blue-green leaves along hanging stems. It suits sunny balconies, window ledges, and dry hanging baskets.",
+    "image": "/images/burros-tail.jpg"
+  },
+  {
+    "id": 149,
+    "name": "Zebra Haworthia",
+    "kannada_name": "ಜೀಬ್ರಾ ಹಾವರ್ಥಿಯಾ",
+    "scientific_name": "Haworthiopsis attenuata",
+    "category": [
+      "indoor",
+      "sun",
+      "shade",
+      "ornamental",
+      "succulent"
+    ],
+    "placement": "shade",
+    "origin": "South Africa",
+    "benefits": [
+      "Striped succulent",
+      "Tiny pot friendly",
+      "Low maintenance"
+    ],
+    "description": "A compact succulent with white striped leaf bands. It is perfect for small pots, desk planters, and bright indoor shelves.",
+    "image": "/images/zebra-haworthia.jpg"
+  },
+  {
+    "id": 150,
+    "name": "Haworthia Cooperi",
+    "kannada_name": "ಹಾವರ್ಥಿಯಾ ಕೂಪೇರಿ",
+    "scientific_name": "Haworthia cooperi",
+    "category": [
+      "indoor",
+      "sun",
+      "shade",
+      "ornamental",
+      "succulent"
+    ],
+    "placement": "shade",
+    "origin": "South Africa",
+    "benefits": [
+      "Translucent leaves",
+      "Compact succulent",
+      "Collector plant"
+    ],
+    "description": "A small succulent with soft windowed leaf tips that glow in bright light. It is ideal for miniature planters and succulent collections.",
+    "image": "/images/haworthia-cooperi.jpg"
+  },
+  {
+    "id": 151,
+    "name": "Living Stones",
+    "kannada_name": "ಲಿವಿಂಗ್ ಸ್ಟೋನ್ಸ್",
+    "scientific_name": "Lithops aucampiae",
+    "category": [
+      "indoor",
+      "sun",
+      "ornamental",
+      "succulent"
+    ],
+    "placement": "sun",
+    "origin": "South Africa",
+    "benefits": [
+      "Stone-like form",
+      "Very low water need",
+      "Collector succulent"
+    ],
+    "description": "A tiny succulent that resembles pebbles. It needs strong light, gritty soil, and very careful watering, making it best for collectors.",
+    "image": "/images/living-stones.jpg"
+  },
+  {
+    "id": 152,
+    "name": "Panda Plant",
+    "kannada_name": "ಪಾಂಡಾ ಗಿಡ",
+    "scientific_name": "Kalanchoe tomentosa",
+    "category": [
+      "indoor",
+      "sun",
+      "ornamental",
+      "succulent"
+    ],
+    "placement": "sun",
+    "origin": "Madagascar",
+    "benefits": [
+      "Fuzzy leaves",
+      "Low water need",
+      "Cute tabletop plant"
+    ],
+    "description": "A soft-looking succulent with fuzzy silver leaves and brown edges. It suits sunny windows, balcony shelves, and small decorative pots.",
+    "image": "/images/panda-plant.jpg"
+  },
+  {
+    "id": 153,
+    "name": "Flaming Katy",
+    "kannada_name": "ಫ್ಲೇಮಿಂಗ್ ಕೇಟಿ",
+    "scientific_name": "Kalanchoe blossfeldiana",
+    "category": [
+      "indoor",
+      "sun",
+      "ornamental",
+      "succulent",
+      "flowering"
+    ],
+    "placement": "sun",
+    "origin": "Madagascar",
+    "benefits": [
+      "Colorful blooms",
+      "Low water need",
+      "Gift plant"
+    ],
+    "description": "A flowering succulent with clusters of bright blooms in many colors. It is popular for gifting, tabletops, and sunny indoor ledges.",
+    "image": "/images/flaming-katy.jpg"
+  },
+  {
+    "id": 154,
+    "name": "Silver Dollar Vine",
+    "kannada_name": "ಸಿಲ್ವರ್ ಡಾಲರ್ ವೈನ್",
+    "scientific_name": "Xerosicyos danguyi",
+    "category": [
+      "indoor",
+      "sun",
+      "shade",
+      "ornamental",
+      "succulent",
+      "climber"
+    ],
+    "placement": "shade",
+    "origin": "Madagascar",
+    "benefits": [
+      "Round succulent leaves",
+      "Trailing habit",
+      "Drought tolerant"
+    ],
+    "description": "A rare-looking succulent vine with round coin-shaped leaves. It is excellent for hanging planters and bright dry indoor spots.",
+    "image": "/images/silver-dollar-vine.jpg"
+  },
+  {
+    "id": 155,
+    "name": "Desert Rose",
+    "kannada_name": "ಮರುಭೂಮಿ ಗುಲಾಬಿ",
+    "scientific_name": "Adenium obesum",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "succulent",
+      "flowering"
+    ],
+    "placement": "sun",
+    "origin": "Arabian Peninsula and East Africa",
+    "benefits": [
+      "Showy flowers",
+      "Bonsai style trunk",
+      "Drought tolerant"
+    ],
+    "description": "A sculptural flowering succulent with a swollen trunk and bright blooms. It is highly popular for sunny terraces and container gardens.",
+    "image": "/images/desert-rose.jpg"
+  },
+  {
+    "id": 156,
+    "name": "Ponytail Palm",
+    "kannada_name": "ಪೊನಿಟೇಲ್ ಪಾಮ್",
+    "scientific_name": "Beaucarnea recurvata",
+    "category": [
+      "indoor",
+      "sun",
+      "ornamental",
+      "succulent"
+    ],
+    "placement": "sun",
+    "origin": "Mexico",
+    "benefits": [
+      "Sculptural trunk",
+      "Low water need",
+      "Indoor accent"
+    ],
+    "description": "A striking plant with a swollen water-storing base and arching leaves. It suits sunny interiors, balconies, and modern container displays.",
+    "image": "/images/ponytail-palm.jpg"
+  },
+  {
+    "id": 157,
+    "name": "Dragon Tree",
+    "kannada_name": "ಡ್ರ್ಯಾಗನ್ ಟ್ರೀ",
+    "scientific_name": "Dracaena marginata",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "Madagascar",
+    "benefits": [
+      "Slim upright form",
+      "Air purifying",
+      "Low maintenance"
+    ],
+    "description": "A narrow-leaved indoor plant with slender stems and a modern silhouette. It is useful for offices, corridors, and low-maintenance interiors.",
+    "image": "/images/dragon-tree.jpg"
+  },
+  {
+    "id": 158,
+    "name": "Corn Plant",
+    "kannada_name": "ಕಾರ್ನ್ ಪ್ಲಾಂಟ್",
+    "scientific_name": "Dracaena fragrans",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "Tropical Africa",
+    "benefits": [
+      "Broad striped leaves",
+      "Low maintenance",
+      "Office friendly"
+    ],
+    "description": "A dependable indoor plant with cane-like stems and broad leaves. It tolerates bright shade and works well in homes, hotels, and offices.",
+    "image": "/images/corn-plant.jpg"
+  },
+  {
+    "id": 159,
+    "name": "Cast Iron Plant",
+    "kannada_name": "ಕಾಸ್ಟ್ ಐರನ್ ಪ್ಲಾಂಟ್",
+    "scientific_name": "Aspidistra elatior",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "Japan and Taiwan",
+    "benefits": [
+      "Very shade tolerant",
+      "Hardy foliage",
+      "Low maintenance"
+    ],
+    "description": "A tough indoor plant known for handling low light and irregular care. It is a practical choice for shaded homes and commercial interiors.",
+    "image": "/images/cast-iron-plant.jpg"
+  },
+  {
+    "id": 160,
+    "name": "Bird of Paradise",
+    "kannada_name": "ಪಕ್ಷಿ ಸ್ವರ್ಗ ಹೂ",
+    "scientific_name": "Strelitzia reginae",
+    "category": [
+      "indoor",
+      "outdoor",
+      "sun",
+      "ornamental",
+      "flowering"
+    ],
+    "placement": "sun",
+    "origin": "South Africa",
+    "benefits": [
+      "Large tropical leaves",
+      "Orange flowers",
+      "Statement plant"
+    ],
+    "description": "A dramatic plant with banana-like leaves and bird-shaped flowers. It suits sunny balconies, large planters, and bright indoor spaces.",
+    "image": "/images/bird-of-paradise.jpg"
+  },
+  {
+    "id": 161,
+    "name": "White Bird of Paradise",
+    "kannada_name": "ವೈಟ್ ಬರ್ಡ್ ಆಫ್ ಪ್ಯಾರಡೈಸ್",
+    "scientific_name": "Strelitzia nicolai",
+    "category": [
+      "indoor",
+      "outdoor",
+      "sun",
+      "ornamental"
+    ],
+    "placement": "sun",
+    "origin": "South Africa",
+    "benefits": [
+      "Giant foliage",
+      "Resort look",
+      "Large planter friendly"
+    ],
+    "description": "A tall foliage plant with huge paddle-shaped leaves and a tropical look. It is best for spacious interiors, patios, and resort landscapes.",
+    "image": "/images/white-bird-of-paradise.jpg"
+  },
+  {
+    "id": 162,
+    "name": "Parlor Palm",
+    "kannada_name": "ಪಾರ್ಲರ್ ಪಾಮ್",
+    "scientific_name": "Chamaedorea elegans",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental",
+      "palm"
+    ],
+    "placement": "shade",
+    "origin": "Mexico and Guatemala",
+    "benefits": [
+      "Compact palm",
+      "Low light tolerant",
+      "Elegant fronds"
+    ],
+    "description": "A classic indoor palm with soft fronds and a compact habit. It is well suited to living rooms, offices, and shaded indoor corners.",
+    "image": "/images/parlor-palm.jpg"
+  },
+  {
+    "id": 163,
+    "name": "Kentia Palm",
+    "kannada_name": "ಕೆಂಟಿಯಾ ಪಾಮ್",
+    "scientific_name": "Howea forsteriana",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental",
+      "palm"
+    ],
+    "placement": "shade",
+    "origin": "Lord Howe Island",
+    "benefits": [
+      "Elegant palm",
+      "Interior landscaping",
+      "Slow growing"
+    ],
+    "description": "A refined indoor palm with arching fronds and a graceful form. It is popular for premium interiors, lobbies, and large living rooms.",
+    "image": "/images/kentia-palm.jpg"
+  },
+  {
+    "id": 164,
+    "name": "Fishtail Palm",
+    "kannada_name": "ಮೀನುಬಾಲ ಪಾಮ್",
+    "scientific_name": "Caryota mitis",
+    "category": [
+      "indoor",
+      "outdoor",
+      "shade",
+      "ornamental",
+      "palm"
+    ],
+    "placement": "shade",
+    "origin": "Southeast Asia",
+    "benefits": [
+      "Fishtail leaflets",
+      "Screening plant",
+      "Tropical look"
+    ],
+    "description": "A clumping palm with leaflets shaped like fish tails. It is useful for shaded patios, indoor atriums, and tropical garden screens.",
+    "image": "/images/fishtail-palm.jpg"
+  },
+  {
+    "id": 165,
+    "name": "Polka Dot Plant",
+    "kannada_name": "ಪೋಲ್ಕಾ ಡಾಟ್ ಗಿಡ",
+    "scientific_name": "Hypoestes phyllostachya",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "Madagascar",
+    "benefits": [
+      "Spotted leaves",
+      "Colorful edging",
+      "Small pot friendly"
+    ],
+    "description": "A small foliage plant with pink, white, or red spotted leaves. It is good for dish gardens, terrariums, and shaded balcony planters.",
+    "image": "/images/polka-dot-plant.jpg"
+  },
+  {
+    "id": 166,
+    "name": "Nerve Plant",
+    "kannada_name": "ನರ ಜಾಲ ಗಿಡ",
+    "scientific_name": "Fittonia albivenis",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "Tropical South America",
+    "benefits": [
+      "Veined leaves",
+      "Terrarium friendly",
+      "Compact groundcover"
+    ],
+    "description": "A tiny indoor plant with colorful vein patterns on its leaves. It loves humidity and is excellent for terrariums and small shaded planters.",
+    "image": "/images/nerve-plant.jpg"
+  },
+  {
+    "id": 167,
+    "name": "Rex Begonia",
+    "kannada_name": "ರೆಕ್ಸ್ ಬೀಗೋನಿಯಾ",
+    "scientific_name": "Begonia rex-cultorum",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "Cultivated hybrids from Asian species",
+    "benefits": [
+      "Colorful foliage",
+      "Collector plant",
+      "Shade display"
+    ],
+    "description": "A decorative begonia grown for dramatic leaf colors and patterns. It is best for bright shaded interiors with good airflow.",
+    "image": "/images/rex-begonia.jpg"
+  },
+  {
+    "id": 168,
+    "name": "Polka Dot Begonia",
+    "kannada_name": "ಪೋಲ್ಕಾ ಡಾಟ್ ಬೀಗೋನಿಯಾ",
+    "scientific_name": "Begonia maculata",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental",
+      "flowering"
+    ],
+    "placement": "shade",
+    "origin": "Brazil",
+    "benefits": [
+      "Spotted leaves",
+      "Cane begonia habit",
+      "Decorative blooms"
+    ],
+    "description": "A striking cane begonia with silver-dotted leaves and red undersides. It is a premium indoor plant for bright indirect light.",
+    "image": "/images/polka-dot-begonia.jpg"
+  },
+  {
+    "id": 169,
+    "name": "African Violet",
+    "kannada_name": "ಆಫ್ರಿಕನ್ ವೈಲೆಟ್",
+    "scientific_name": "Streptocarpus ionanthus",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental",
+      "flowering"
+    ],
+    "placement": "shade",
+    "origin": "Tanzania",
+    "benefits": [
+      "Indoor flowers",
+      "Compact rosette",
+      "Tabletop plant"
+    ],
+    "description": "A small flowering houseplant with velvety leaves and violet-like blooms. It is ideal for bright windows and protected indoor shelves.",
+    "image": "/images/african-violet.jpg"
+  },
+  {
+    "id": 170,
+    "name": "Purple Shamrock",
+    "kannada_name": "ಪರ್ಪಲ್ ಶ್ಯಾಮ್ರಾಕ್",
+    "scientific_name": "Oxalis triangularis",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "Brazil",
+    "benefits": [
+      "Purple leaves",
+      "Butterfly-shaped foliage",
+      "Tabletop color"
+    ],
+    "description": "A colorful plant with triangular purple leaves that open and close with light. It adds contrast to indoor planters and shaded balconies.",
+    "image": "/images/purple-shamrock.jpg"
+  },
+  {
+    "id": 171,
+    "name": "Rabbit Foot Fern",
+    "kannada_name": "ಮೊಲದ ಕಾಲು ಫರ್ನ್",
+    "scientific_name": "Davallia fejeensis",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental",
+      "fern"
+    ],
+    "placement": "shade",
+    "origin": "Fiji",
+    "benefits": [
+      "Soft fern fronds",
+      "Fuzzy rhizomes",
+      "Hanging basket friendly"
+    ],
+    "description": "A fern with delicate fronds and fuzzy rhizomes that creep over pot edges. It is attractive in hanging baskets and shaded interiors.",
+    "image": "/images/rabbit-foot-fern.jpg"
+  },
+  {
+    "id": 172,
+    "name": "Bird's Nest Fern",
+    "kannada_name": "ಹಕ್ಕಿ ಗೂಡು ಫರ್ನ್",
+    "scientific_name": "Asplenium nidus",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental",
+      "fern"
+    ],
+    "placement": "shade",
+    "origin": "Tropical Asia and Pacific Islands",
+    "benefits": [
+      "Glossy rosette",
+      "Humidity loving",
+      "Low light tolerant"
+    ],
+    "description": "A tropical fern with broad glossy fronds arranged like a nest. It works well in bathrooms, shaded balconies, and humid interiors.",
+    "image": "/images/birds-nest-fern.jpg"
+  },
+  {
+    "id": 173,
+    "name": "Staghorn Fern",
+    "kannada_name": "ಸ್ಟ್ಯಾಗ್‌ಹಾರ್ನ್ ಫರ್ನ್",
+    "scientific_name": "Platycerium bifurcatum",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental",
+      "fern"
+    ],
+    "placement": "shade",
+    "origin": "Australia and New Guinea",
+    "benefits": [
+      "Mounted display",
+      "Sculptural fronds",
+      "Epiphytic habit"
+    ],
+    "description": "An epiphytic fern with antler-like fronds. It is excellent for wall mounts, tree trunks, and artistic indoor plant displays.",
+    "image": "/images/staghorn-fern.jpg"
+  },
+  {
+    "id": 174,
+    "name": "Air Plant",
+    "kannada_name": "ಗಾಳಿ ಗಿಡ",
+    "scientific_name": "Tillandsia ionantha",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "Mexico and Central America",
+    "benefits": [
+      "Soil-free display",
+      "Tiny accent plant",
+      "Terrarium friendly"
+    ],
+    "description": "A small air plant that can be displayed without soil. It is suitable for glass bowls, wall art, and creative indoor decor.",
+    "image": "/images/air-plant.jpg"
+  },
+  {
+    "id": 175,
+    "name": "Guzmania Bromeliad",
+    "kannada_name": "ಬ್ರೊಮಿಲಿಯಾಡ್",
+    "scientific_name": "Guzmania lingulata",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental",
+      "flowering"
+    ],
+    "placement": "shade",
+    "origin": "Central and South America",
+    "benefits": [
+      "Colorful bracts",
+      "Indoor flowering",
+      "Tropical accent"
+    ],
+    "description": "A bromeliad with glossy leaves and bright central bracts. It is a strong choice for tabletops, reception areas, and shaded indoor decor.",
+    "image": "/images/guzmania-bromeliad.jpg"
+  },
+  {
+    "id": 176,
+    "name": "Urn Plant",
+    "kannada_name": "ಅರ್ನ್ ಪ್ಲಾಂಟ್",
+    "scientific_name": "Aechmea fasciata",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental",
+      "flowering"
+    ],
+    "placement": "shade",
+    "origin": "Brazil",
+    "benefits": [
+      "Silver leaves",
+      "Pink flower spike",
+      "Long lasting display"
+    ],
+    "description": "A sturdy bromeliad with silver banded leaves and a long-lasting pink flower spike. It suits bright indoor spaces and shaded patios.",
+    "image": "/images/urn-plant.jpg"
+  },
+  {
+    "id": 177,
+    "name": "Jewel Orchid",
+    "kannada_name": "ಜುವೆಲ್ ಆರ್ಕಿಡ್",
+    "scientific_name": "Ludisia discolor",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental",
+      "flowering"
+    ],
+    "placement": "shade",
+    "origin": "Southeast Asia",
+    "benefits": [
+      "Velvet leaves",
+      "Fine leaf veins",
+      "Shade orchid"
+    ],
+    "description": "An orchid grown mainly for velvety dark leaves with glowing veins. It prefers warm shade and is easier indoors than many flowering orchids.",
+    "image": "/images/jewel-orchid.jpg"
+  },
+  {
+    "id": 178,
+    "name": "Moth Orchid",
+    "kannada_name": "ಮೋತ್ ಆರ್ಕಿಡ್",
+    "scientific_name": "Phalaenopsis amabilis",
+    "category": [
+      "indoor",
+      "shade",
+      "ornamental",
+      "flowering"
+    ],
+    "placement": "shade",
+    "origin": "Southeast Asia and Australia",
+    "benefits": [
+      "Long-lasting flowers",
+      "Elegant indoor display",
+      "Gift plant"
+    ],
+    "description": "A popular indoor orchid with graceful moth-like blooms. It performs best in bright indirect light, airy media, and gentle watering.",
+    "image": "/images/moth-orchid.jpg"
+  },
+  {
+    "id": 179,
+    "name": "Foxtail Orchid",
+    "kannada_name": "ಫಾಕ್ಸ್‌ಟೇಲ್ ಆರ್ಕಿಡ್",
+    "scientific_name": "Rhynchostylis retusa",
+    "category": [
+      "indoor",
+      "outdoor",
+      "shade",
+      "ornamental",
+      "flowering"
+    ],
+    "placement": "shade",
+    "origin": "South and Southeast Asia",
+    "benefits": [
+      "Fragrant flower spikes",
+      "Epiphytic orchid",
+      "Indian favorite"
+    ],
+    "description": "A beautiful orchid with hanging foxtail-like flower sprays. It is popular in Indian orchid collections and shaded garden displays.",
+    "image": "/images/foxtail-orchid.jpg"
+  },
+  {
+    "id": 180,
+    "name": "Venus Flytrap",
+    "kannada_name": "ವೀನಸ್ ಫ್ಲೈಟ್ರ್ಯಾಪ್",
+    "scientific_name": "Dionaea muscipula",
+    "category": [
+      "indoor",
+      "sun",
+      "ornamental",
+      "carnivorous"
+    ],
+    "placement": "sun",
+    "origin": "Southeastern United States",
+    "benefits": [
+      "Carnivorous plant",
+      "Educational value",
+      "Unique leaf traps"
+    ],
+    "description": "A famous carnivorous plant with snapping traps. It needs strong light, mineral-free water, and nutrient-poor growing media.",
+    "image": "/images/venus-flytrap.jpg"
+  },
+  {
+    "id": 181,
+    "name": "Henna",
+    "kannada_name": "ಗೋರಂಟಿ",
+    "scientific_name": "Lawsonia inermis",
+    "category": [
+      "outdoor",
+      "sun",
+      "medicinal",
+      "ornamental"
+    ],
+    "placement": "sun",
+    "origin": "North Africa and western Asia",
+    "benefits": [
+      "Natural dye leaves",
+      "Traditional use",
+      "Hedge friendly"
+    ],
+    "description": "A traditional shrub grown for its leaves used in natural dye and festive body art. It prefers sun, pruning, and warm dry conditions.",
+    "image": "/images/henna.jpg"
+  },
+  {
+    "id": 182,
+    "name": "Night Blooming Jasmine",
+    "kannada_name": "ರಾತ್ರಿ ರಾಣಿ",
+    "scientific_name": "Cestrum nocturnum",
+    "category": [
+      "outdoor",
+      "sun",
+      "shade",
+      "ornamental",
+      "flowering"
+    ],
+    "placement": "sun",
+    "origin": "West Indies",
+    "benefits": [
+      "Strong evening fragrance",
+      "Fast growing shrub",
+      "Night garden plant"
+    ],
+    "description": "A popular fragrant shrub whose flowers release scent mainly at night. It is suited to garden edges, terraces, and well-ventilated outdoor areas.",
+    "image": "/images/night-blooming-jasmine.jpg"
+  },
+  {
+    "id": 183,
+    "name": "Orange Jasmine",
+    "kannada_name": "ಕಮಿನಿ",
+    "scientific_name": "Murraya paniculata",
+    "category": [
+      "outdoor",
+      "sun",
+      "shade",
+      "ornamental",
+      "flowering"
+    ],
+    "placement": "sun",
+    "origin": "South and Southeast Asia",
+    "benefits": [
+      "Fragrant flowers",
+      "Hedge plant",
+      "Glossy foliage"
+    ],
+    "description": "A glossy evergreen shrub with small fragrant white flowers. It is widely used for hedges, entryways, and container planting in India.",
+    "image": "/images/orange-jasmine.jpg"
+  },
+  {
+    "id": 184,
+    "name": "Brahma Kamal",
+    "kannada_name": "ಬ್ರಹ್ಮ ಕಮಲ",
+    "scientific_name": "Epiphyllum oxypetalum",
+    "category": [
+      "indoor",
+      "outdoor",
+      "shade",
+      "ornamental",
+      "flowering"
+    ],
+    "placement": "shade",
+    "origin": "Central America",
+    "benefits": [
+      "Night blooming flowers",
+      "Fragrant blooms",
+      "Container friendly"
+    ],
+    "description": "A beloved night-blooming cactus grown in many Indian homes. Its large white flowers open dramatically at night in warm humid conditions.",
+    "image": "/images/brahma-kamal.jpg"
+  },
+  {
+    "id": 185,
+    "name": "Insulin Plant",
+    "kannada_name": "ಇನ್ಸುಲಿನ್ ಗಿಡ",
+    "scientific_name": "Chamaecostus cuspidatus",
+    "category": [
+      "outdoor",
+      "shade",
+      "medicinal",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "South America",
+    "benefits": [
+      "Traditional garden plant",
+      "Spiral foliage",
+      "Container friendly"
+    ],
+    "description": "A popular home-garden plant with spiraling leaves and orange flowers. It is commonly grown as a traditional wellness plant in containers.",
+    "image": "/images/insulin-plant.jpg"
+  },
+  {
+    "id": 186,
+    "name": "Stevia",
+    "kannada_name": "ಸ್ಟೀವಿಯಾ",
+    "scientific_name": "Stevia rebaudiana",
+    "category": [
+      "outdoor",
+      "sun",
+      "medicinal",
+      "edible"
+    ],
+    "placement": "sun",
+    "origin": "Paraguay and Brazil",
+    "benefits": [
+      "Sweet leaves",
+      "Kitchen garden plant",
+      "Container friendly"
+    ],
+    "description": "A small herb grown for naturally sweet leaves. It can be grown in sunny containers and kitchen gardens with regular trimming.",
+    "image": "/images/stevia.jpg"
+  },
+  {
+    "id": 187,
+    "name": "Malabar Nut",
+    "kannada_name": "ಅಡಸೋಗೆ",
+    "scientific_name": "Justicia adhatoda",
+    "category": [
+      "outdoor",
+      "sun",
+      "medicinal",
+      "ornamental"
+    ],
+    "placement": "sun",
+    "origin": "Indian subcontinent",
+    "benefits": [
+      "Traditional herb",
+      "White flower spikes",
+      "Hedge friendly"
+    ],
+    "description": "A medicinal shrub known in Indian traditional gardens. It has lance-shaped leaves and white flower spikes, and grows well in sunny hedges.",
+    "image": "/images/malabar-nut.jpg"
+  },
+  {
+    "id": 188,
+    "name": "Kalmegh",
+    "kannada_name": "ನೆಲಬೇವು",
+    "scientific_name": "Andrographis paniculata",
+    "category": [
+      "outdoor",
+      "sun",
+      "medicinal"
+    ],
+    "placement": "sun",
+    "origin": "South and Southeast Asia",
+    "benefits": [
+      "Traditional herb",
+      "Bitter leaves",
+      "Seasonal medicinal garden plant"
+    ],
+    "description": "A small herb widely grown in medicinal plant gardens. It has bitter leaves and is best kept in sunny beds or containers.",
+    "image": "/images/kalmegh.jpg"
+  },
+  {
+    "id": 189,
+    "name": "Bhringraj",
+    "kannada_name": "ಗರಗ",
+    "scientific_name": "Eclipta prostrata",
+    "category": [
+      "outdoor",
+      "sun",
+      "medicinal"
+    ],
+    "placement": "sun",
+    "origin": "Pantropical regions",
+    "benefits": [
+      "Traditional hair-care herb",
+      "Small white flowers",
+      "Medicinal garden use"
+    ],
+    "description": "A small herb valued in traditional Indian plant collections. It grows quickly in moist sunny spots and is often kept in herbal gardens.",
+    "image": "/images/bhringraj.jpg"
+  },
+  {
+    "id": 190,
+    "name": "Veldt Grape",
+    "kannada_name": "ಮಂಗರವಳ್ಳಿ",
+    "scientific_name": "Cissus quadrangularis",
+    "category": [
+      "outdoor",
+      "sun",
+      "medicinal",
+      "climber",
+      "succulent"
+    ],
+    "placement": "sun",
+    "origin": "Africa, Arabia, and the Indian subcontinent",
+    "benefits": [
+      "Traditional climber",
+      "Succulent stems",
+      "Low water need"
+    ],
+    "description": "A succulent climber with four-angled stems. It is grown in sunny medicinal gardens, fences, and containers with strong drainage.",
+    "image": "/images/veldt-grape.jpg"
+  },
+  {
+    "id": 191,
+    "name": "Indian Laburnum",
+    "kannada_name": "ಕಕ್ಕೆ ಮರ",
+    "scientific_name": "Cassia fistula",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "tree"
+    ],
+    "placement": "sun",
+    "origin": "Indian subcontinent and Southeast Asia",
+    "benefits": [
+      "Golden flower chains",
+      "Avenue tree",
+      "Summer color"
+    ],
+    "description": "A beautiful flowering tree with hanging chains of golden flowers. It is popular for avenues, parks, temple gardens, and large landscapes.",
+    "image": "/images/indian-laburnum.jpg"
+  },
+  {
+    "id": 192,
+    "name": "Gulmohar",
+    "kannada_name": "ಗುಲ್ಮೋಹರ್",
+    "scientific_name": "Delonix regia",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "tree"
+    ],
+    "placement": "sun",
+    "origin": "Madagascar",
+    "benefits": [
+      "Fiery red flowers",
+      "Shade tree",
+      "Avenue planting"
+    ],
+    "description": "A dramatic avenue tree with ferny leaves and bright red-orange flowers. It needs open sunny space and is common in Indian cities.",
+    "image": "/images/gulmohar.jpg"
+  },
+  {
+    "id": 193,
+    "name": "Kadamba",
+    "kannada_name": "ಕದಂಬ",
+    "scientific_name": "Neolamarckia cadamba",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "tree"
+    ],
+    "placement": "sun",
+    "origin": "South and Southeast Asia",
+    "benefits": [
+      "Spherical flowers",
+      "Fast shade",
+      "Sacred tree value"
+    ],
+    "description": "A fast-growing tree with round fragrant flower heads. Kadamba is valued in Indian landscapes, parks, temple surroundings, and large gardens.",
+    "image": "/images/kadamba.jpg"
+  },
+  {
+    "id": 194,
+    "name": "Flame of the Forest",
+    "kannada_name": "ಮುತ್ತುಗ",
+    "scientific_name": "Butea monosperma",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "tree"
+    ],
+    "placement": "sun",
+    "origin": "Indian subcontinent",
+    "benefits": [
+      "Bright orange flowers",
+      "Native tree",
+      "Pollinator support"
+    ],
+    "description": "A native flowering tree known for vivid orange blooms before the leaf flush. It is excellent for biodiversity gardens and dry landscapes.",
+    "image": "/images/flame-of-the-forest.jpg"
+  },
+  {
+    "id": 195,
+    "name": "Indian Cork Tree",
+    "kannada_name": "ಆಕಾಶ ಮಲ್ಲಿಗೆ",
+    "scientific_name": "Millingtonia hortensis",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "tree"
+    ],
+    "placement": "sun",
+    "origin": "South and Southeast Asia",
+    "benefits": [
+      "Fragrant white flowers",
+      "Avenue tree",
+      "Night fragrance"
+    ],
+    "description": "A tall ornamental tree with fragrant white tubular flowers that often fall like a carpet. It is popular in avenues and large gardens.",
+    "image": "/images/indian-cork-tree.jpg"
+  },
+  {
+    "id": 196,
+    "name": "Jacaranda",
+    "kannada_name": "ಜಕರಂಡಾ",
+    "scientific_name": "Jacaranda mimosifolia",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "tree"
+    ],
+    "placement": "sun",
+    "origin": "South America",
+    "benefits": [
+      "Purple-blue flowers",
+      "Avenue planting",
+      "Seasonal color"
+    ],
+    "description": "An ornamental avenue tree known for purple-blue flower displays. It suits open roadsides, parks, campuses, and large landscapes.",
+    "image": "/images/jacaranda.jpg"
+  },
+  {
+    "id": 197,
+    "name": "Crepe Myrtle",
+    "kannada_name": "ಕ್ರೇಪ್ ಮರ್ಟಲ್",
+    "scientific_name": "Lagerstroemia indica",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental",
+      "tree",
+      "flowering"
+    ],
+    "placement": "sun",
+    "origin": "South and Southeast Asia",
+    "benefits": [
+      "Colorful flowers",
+      "Small tree option",
+      "Avenue friendly"
+    ],
+    "description": "A flowering small tree or shrub with crinkled petals and attractive bark. It is useful for streets, parks, and sunny garden edges.",
+    "image": "/images/crepe-myrtle.jpg"
+  },
+  {
+    "id": 198,
+    "name": "Traveller's Palm",
+    "kannada_name": "ಟ್ರಾವೆಲರ್ ಪಾಮ್",
+    "scientific_name": "Ravenala madagascariensis",
+    "category": [
+      "outdoor",
+      "sun",
+      "ornamental"
+    ],
+    "placement": "sun",
+    "origin": "Madagascar",
+    "benefits": [
+      "Fan-shaped foliage",
+      "Resort landscaping",
+      "Tropical focal plant"
+    ],
+    "description": "A bold landscape plant with leaves arranged like a giant fan. It is widely used near entrances, resorts, lawns, and large courtyards.",
+    "image": "/images/travellers-palm.jpg"
+  },
+  {
+    "id": 199,
+    "name": "Mexican Petunia",
+    "kannada_name": "ಮೆಕ್ಸಿಕನ್ ಪೆಟೂನಿಯಾ",
+    "scientific_name": "Ruellia simplex",
+    "category": [
+      "outdoor",
+      "sun",
+      "shade",
+      "ornamental",
+      "flowering"
+    ],
+    "placement": "sun",
+    "origin": "Mexico, the Caribbean, and South America",
+    "benefits": [
+      "Purple flowers",
+      "Hardy border plant",
+      "Fast growing"
+    ],
+    "description": "A hardy flowering plant with purple trumpet-shaped blooms. It is often used for borders, roadside planting, and low-maintenance garden patches.",
+    "image": "/images/mexican-petunia.jpg"
+  },
+  {
+    "id": 200,
+    "name": "Oyster Plant",
+    "kannada_name": "ಆಯ್ಸ್ಟರ್ ಪ್ಲಾಂಟ್",
+    "scientific_name": "Tradescantia spathacea",
+    "category": [
+      "indoor",
+      "outdoor",
+      "shade",
+      "ornamental"
+    ],
+    "placement": "shade",
+    "origin": "Belize, Guatemala, and Mexico",
+    "benefits": [
+      "Purple leaf undersides",
+      "Border plant",
+      "Container friendly"
+    ],
+    "description": "A colorful foliage plant with green upper leaves and purple undersides. It works well as a shaded border, pot plant, or indoor accent.",
+    "image": "/images/oyster-plant.jpg"
   }
 ]
