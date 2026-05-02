@@ -10,7 +10,7 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 import { useCartStore } from "../store/cartStore";
-import { loadPlants } from "../utils/plantStore";
+import { usePlantStore } from "../store/plantStore";
 
 export default function CartDrawer({ isOpen, onOpen, onClose }) {
   const [isExporting, setIsExporting] = useState(false);
@@ -21,6 +21,7 @@ export default function CartDrawer({ isOpen, onOpen, onClose }) {
   const clearCart = useCartStore((state) => state.clearCart);
   const itemCount = useCartStore((state) => state.totalQuantity());
   const totalTypes = useCartStore((state) => state.totalTypes());
+  const plants = usePlantStore((state) => state.plants);
   const hasItems = items.length > 0;
 
   const runExport = async (type) => {
@@ -47,7 +48,7 @@ export default function CartDrawer({ isOpen, onOpen, onClose }) {
         quantity: item.quantity,
       }));
 
-      exportToExcel(cartItems, loadPlants());
+      exportToExcel(cartItems, plants);
     } finally {
       setIsExporting(false);
     }

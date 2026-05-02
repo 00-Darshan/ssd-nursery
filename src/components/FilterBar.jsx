@@ -1,17 +1,20 @@
-const categories = [
-  { label: "All", value: "all" },
-  { label: "Indoor", value: "indoor" },
-  { label: "Outdoor", value: "outdoor" },
-  { label: "Sun", value: "sun" },
-  { label: "Shade", value: "shade" },
-  { label: "Medicinal", value: "medicinal" },
-  { label: "Ornamental", value: "ornamental" },
-];
+import { usePlantStore } from "../store/plantStore";
+
+const toFilterValue = (name) => name.toLocaleLowerCase();
 
 export default function FilterBar({ activeCategory, onChange }) {
+  const categories = usePlantStore((state) => state.categories);
+  const filterCategories = [
+    { label: "All", value: "all" },
+    ...categories.map((category) => ({
+      label: category.name,
+      value: toFilterValue(category.name),
+    })),
+  ];
+
   return (
     <div className="flex gap-2 overflow-x-auto pb-1" aria-label="Plant category filters">
-      {categories.map((category) => {
+      {filterCategories.map((category) => {
         const isActive = activeCategory === category.value;
 
         return (

@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { Leaf, Sprout } from "lucide-react";
+import { Leaf, LoaderCircle, RefreshCw, Sprout } from "lucide-react";
 import CartDrawer from "../components/CartDrawer";
 import FilterBar from "../components/FilterBar";
 import PlantCard from "../components/PlantCard";
@@ -8,26 +8,27 @@ import SearchBar from "../components/SearchBar";
 import Toast from "../components/Toast";
 import { useCartStore } from "../store/cartStore";
 import { resolvePlantImage, usePlantImageStore } from "../store/plantImageStore";
-import { loadPlants } from "../utils/plantStore";
+import { usePlantStore } from "../store/plantStore";
 
 export default function CatalogPage() {
-  const [plants, setPlants] = useState(() => loadPlants());
   const [searchTerm, setSearchTerm] = useState("");
   const [activeCategory, setActiveCategory] = useState("all");
   const [selectedPlantId, setSelectedPlantId] = useState(null);
   const [isCartOpen, setIsCartOpen] = useState(false);
   const [toast, setToast] = useState("");
   const addPlant = useCartStore((state) => state.addPlant);
+  const plants = usePlantStore((state) => state.plants);
+  const isLoading = usePlantStore((state) => state.isLoading);
+  const error = usePlantStore((state) => state.error);
+  const initialize = usePlantStore((state) => state.initialize);
   const imageCache = usePlantImageStore((state) => state.imageCache);
   const loadingIds = usePlantImageStore((state) => state.loadingIds);
   const fetchImagesForPlants = usePlantImageStore((state) => state.fetchImagesForPlants);
 
   useEffect(() => {
-    setPlants(loadPlants());
-  }, []);
-
-  useEffect(() => {
-    fetchImagesForPlants(plants);
+    if (plants.length) {
+      fetchImagesForPlants(plants);
+    }
   }, [fetchImagesForPlants, plants]);
 
   const catalogPlants = useMemo(
@@ -44,7 +45,11 @@ export default function CatalogPage() {
 
     return catalogPlants.filter((plant) => {
       const matchesCategory =
-        activeCategory === "all" || plant.category.includes(activeCategory);
+        activeCategory === "all" ||
+        (plant.category || []).some(
+          (category) =>
+            category.toLocaleLowerCase() === activeCategory.toLocaleLowerCase(),
+        );
 
       const searchableText = [plant.name, plant.kannada_name, plant.scientific_name]
         .join(" ")
@@ -105,7 +110,26 @@ export default function CatalogPage() {
       </header>
 
       <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-        {filteredPlants.length > 0 ? (
+        {isLoading ? (
+          <section className="flex min-h-80 flex-col items-center justify-center rounded-3xl border border-leaf-100 bg-white/80 p-8 text-center shadow-card">
+            <LoaderCircle aria-hidden="true" className="h-10 w-10 animate-spin text-leaf-600" />
+            <p className="mt-4 text-lg font-extrabold text-leaf-900">Loading plants...</p>
+          </section>
+        ) : error ? (
+          <section className="flex min-h-80 flex-col items-center justify-center rounded-3xl border border-dashed border-red-100 bg-white/80 p-8 text-center shadow-card">
+            <h2 className="text-2xl font-extrabold text-leaf-900">
+              Could not load plants. Please try again.
+            </h2>
+            <button
+              type="button"
+              onClick={initialize}
+              className="mt-5 inline-flex h-11 items-center justify-center gap-2 rounded-2xl bg-leaf-600 px-5 text-sm font-extrabold text-white transition hover:bg-leaf-700"
+            >
+              <RefreshCw aria-hidden="true" className="h-4 w-4" />
+              Retry
+            </button>
+          </section>
+        ) : filteredPlants.length > 0 ? (
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {filteredPlants.map((plant) => (
               <PlantCard

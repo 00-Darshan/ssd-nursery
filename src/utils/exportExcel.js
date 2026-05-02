@@ -72,13 +72,14 @@ const buildPlantRows = (cartItems, plants) => {
 
   return cartItems.map((cartItem, index) => {
     const plant = plantLookup.get(String(cartItem.plantId)) || {};
+    const categories = plant.categories || plant.category || [];
 
     return [
       index + 1,
       plant.name || "Unknown plant",
       plant.kannada_name || "",
       plant.scientific_name || "",
-      Array.isArray(plant.category) ? plant.category.join(", ") : "",
+      Array.isArray(categories) ? categories.join(", ") : "",
       formatPlacement(plant.placement),
       plant.origin || "",
       Array.isArray(plant.benefits) ? plant.benefits.join(", ") : "",

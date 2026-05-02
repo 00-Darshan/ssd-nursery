@@ -6,9 +6,12 @@
   "scripts": {
     "dev": "vite --host 127.0.0.1",
     "build": "vite build",
-    "preview": "vite preview --host 127.0.0.1"
+    "preview": "vite preview --host 127.0.0.1",
+    "seed": "node scripts/seedPlants.js"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.105.1",
+    "dotenv": "^16.4.5",
     "html2canvas": "^1.4.1",
     "jspdf": "^4.2.1",
     "lucide-react": "^0.468.0",

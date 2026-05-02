@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
 import AdminLayout from "./components/AdminLayout";
 import ProtectedRoute from "./components/ProtectedRoute";
@@ -6,8 +7,15 @@ import AdminDashboard from "./pages/AdminDashboard";
 import AdminEditPlant from "./pages/AdminEditPlant";
 import AdminLogin from "./pages/AdminLogin";
 import CatalogPage from "./pages/CatalogPage";
+import { usePlantStore } from "./store/plantStore";
 
 export default function App() {
+  const initialize = usePlantStore((state) => state.initialize);
+
+  useEffect(() => {
+    initialize();
+  }, [initialize]);
+
   return (
     <Routes>
       <Route path="/" element={<CatalogPage />} />

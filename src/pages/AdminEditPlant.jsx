@@ -1,23 +1,56 @@
-import { useMemo } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import PlantForm from "../components/PlantForm";
-import { findPlantById, loadPlants, savePlants } from "../utils/plantStore";
+import { usePlantStore } from "../store/plantStore";
+import { findPlantById } from "../utils/plantStore";
+import {
+  deletePlantImage,
+  isUploadedPlantImage,
+  uploadPlantImage,
+} from "../utils/storageService";
 
 export default function AdminEditPlant() {
   const { id } = useParams();
   const navigate = useNavigate();
-  const plants = useMemo(() => loadPlants(), []);
+  const plants = usePlantStore((state) => state.plants);
+  const categories = usePlantStore((state) => state.categories);
+  const isLoading = usePlantStore((state) => state.isLoading);
+  const updatePlant = usePlantStore((state) => state.updatePlant);
+  const showToast = usePlantStore((state) => state.showToast);
   const plant = findPlantById(plants, id);
 
-  const handleSave = async (updatedPlant) => {
-    const latestPlants = loadPlants();
-    const nextPlants = latestPlants.map((item) =>
-      String(item.id) === String(id) ? { ...updatedPlant, id: item.id } : item,
-    );
+  const handleSave = async ({ plant: updatedPlant, imageFile, imageMode }) => {
+    let imageUrl = updatedPlant.image_url;
+    const previousImageUrl = plant.image_url || plant.image;
 
-    savePlants(nextPlants);
+    if (imageMode === "upload" && imageFile) {
+      try {
+        if (isUploadedPlantImage(previousImageUrl)) {
+          await deletePlantImage(previousImageUrl);
+        }
+        imageUrl = await uploadPlantImage(imageFile);
+      } catch (error) {
+        showToast("Failed to save. Please try again.");
+        throw error;
+      }
+    }
+
+    await updatePlant(id, {
+      ...updatedPlant,
+      image: imageUrl,
+      image_url: imageUrl,
+    });
     navigate("/admin");
   };
+
+  if (isLoading) {
+    return (
+      <main className="mx-auto max-w-3xl px-4 py-10 sm:px-6 lg:px-8">
+        <section className="rounded-3xl border border-leaf-100 bg-white p-8 text-center shadow-card">
+          <h2 className="text-2xl font-extrabold text-leaf-900">Loading plant...</h2>
+        </section>
+      </main>
+    );
+  }
 
   if (!plant) {
     return (
@@ -39,6 +72,7 @@ export default function AdminEditPlant() {
     <PlantForm
       title={`Edit ${plant.name}`}
       initialPlant={plant}
+      categories={categories}
       submitLabel="Update Plant"
       onSave={handleSave}
       onCancel={() => navigate("/admin")}

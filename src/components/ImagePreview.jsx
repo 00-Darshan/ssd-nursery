@@ -4,12 +4,12 @@ import { DEFAULT_PLANT_IMAGE } from "../utils/fetchPlantImage";
 export default function ImagePreview({ src, alt = "Plant preview", isLoading = false }) {
   if (isLoading) {
     return (
-      <div className="flex aspect-[4/3] w-full animate-pulse items-center justify-center rounded-3xl bg-gradient-to-br from-leaf-50 via-leaf-100 to-emerald-50" />
+      <div className="flex h-[200px] w-[200px] max-w-full animate-pulse items-center justify-center rounded-3xl bg-gradient-to-br from-leaf-50 via-leaf-100 to-emerald-50" />
     );
   }
 
   return (
-    <div className="relative aspect-[4/3] overflow-hidden rounded-3xl border border-leaf-100 bg-leaf-50">
+    <div className="relative h-[200px] w-[200px] max-w-full overflow-hidden rounded-3xl border border-leaf-100 bg-leaf-50">
       {src ? (
         <img
           src={src}

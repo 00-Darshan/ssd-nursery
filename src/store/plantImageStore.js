@@ -4,8 +4,10 @@ import { DEFAULT_PLANT_IMAGE, fetchPlantImage } from "../utils/fetchPlantImage";
 const hasRemoteImage = (image) => /^https?:\/\//i.test(image || "");
 
 export const resolvePlantImage = (plant, imageCache = {}) => {
-  if (hasRemoteImage(plant.image)) {
-    return plant.image;
+  const sourceImage = plant.image_url || plant.image;
+
+  if (hasRemoteImage(sourceImage)) {
+    return sourceImage;
   }
 
   return imageCache[plant.id] || DEFAULT_PLANT_IMAGE;
@@ -19,6 +21,7 @@ export const usePlantImageStore = create((set, get) => ({
     const plantsToFetch = plants.filter(
       (plant) =>
         !hasRemoteImage(plant.image) &&
+        !hasRemoteImage(plant.image_url) &&
         !imageCache[plant.id] &&
         !loadingIds[plant.id],
     );
