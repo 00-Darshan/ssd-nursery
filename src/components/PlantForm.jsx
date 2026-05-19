@@ -38,6 +38,7 @@ export default function PlantForm({
       image: imageUrl,
       image_url: imageUrl,
       image_mode: initialPlant?.image_mode || "upload",
+      images: Array.isArray(initialPlant?.images) ? initialPlant.images : [],
     };
   }, [initialPlant]);
 
@@ -49,6 +50,11 @@ export default function PlantForm({
   const [isFetchingImage, setIsFetchingImage] = useState(false);
   const [isSaving, setIsSaving] = useState(false);
   const [error, setError] = useState("");
+  const [additionalImageFiles, setAdditionalImageFiles] = useState([]);
+  const [additionalImagePreviews, setAdditionalImagePreviews] = useState([]);
+  const [existingGalleryImages, setExistingGalleryImages] = useState(
+    normalizedInitialPlant.images,
+  );
 
   useEffect(() => {
     setForm(normalizedInitialPlant);
@@ -56,6 +62,9 @@ export default function PlantForm({
     setFetchedImageUrl("");
     setImageFile(null);
     setUploadPreview("");
+    setAdditionalImageFiles([]);
+    setAdditionalImagePreviews([]);
+    setExistingGalleryImages(normalizedInitialPlant.images);
   }, [normalizedInitialPlant]);
 
   useEffect(
@@ -65,6 +74,13 @@ export default function PlantForm({
       }
     },
     [uploadPreview],
+  );
+
+  useEffect(
+    () => () => {
+      additionalImagePreviews.forEach((url) => URL.revokeObjectURL(url));
+    },
+    [additionalImagePreviews],
   );
 
   const updateField = (field, value) => {
@@ -118,6 +134,42 @@ export default function PlantForm({
     setIsFetchingImage(false);
   };
 
+  const handleGalleryFilesSelect = (event) => {
+    const files = Array.from(event.target.files || []);
+    const validFiles = [];
+    const previews = [];
+
+    for (const file of files) {
+      if (!ALLOWED_IMAGE_TYPES.includes(file.type)) {
+        setError("Only JPEG, PNG, and WebP images are allowed.");
+        event.target.value = "";
+        return;
+      }
+      if (file.size > MAX_IMAGE_SIZE_BYTES) {
+        setError("Each image must be 5\u00a0MB or smaller.");
+        event.target.value = "";
+        return;
+      }
+      validFiles.push(file);
+      previews.push(URL.createObjectURL(file));
+    }
+
+    setError("");
+    setAdditionalImageFiles((prev) => [...prev, ...validFiles]);
+    setAdditionalImagePreviews((prev) => [...prev, ...previews]);
+    event.target.value = "";
+  };
+
+  const removeGalleryFile = (index) => {
+    URL.revokeObjectURL(additionalImagePreviews[index]);
+    setAdditionalImageFiles((prev) => prev.filter((_, i) => i !== index));
+    setAdditionalImagePreviews((prev) => prev.filter((_, i) => i !== index));
+  };
+
+  const removeExistingGalleryImage = (index) => {
+    setExistingGalleryImages((prev) => prev.filter((_, i) => i !== index));
+  };
+
   const validate = () => {
     if (!form.name.trim() || !form.kannada_name.trim() || !form.scientific_name.trim()) {
       return "Common Name, Kannada Name, and Scientific Name are required.";
@@ -165,6 +217,8 @@ export default function PlantForm({
         },
         imageFile,
         imageMode: form.image_mode,
+        additionalImageFiles,
+        existingGalleryImages,
       });
     } catch (saveError) {
       setError(saveError.message || "Failed to save. Please try again.");
@@ -413,6 +467,64 @@ export default function PlantForm({
               Uploading image...
             </p>
           )}
+
+          <div className="space-y-3">
+            <p className={labelClass}>Gallery Images</p>
+
+            {(existingGalleryImages.length > 0 || additionalImagePreviews.length > 0) && (
+              <div className="flex flex-wrap gap-2">
+                {existingGalleryImages.map((url, index) => (
+                  <div key={url} className="relative h-16 w-16 shrink-0">
+                    <img
+                      src={url}
+                      alt={`Gallery ${index + 1}`}
+                      className="h-full w-full rounded-xl object-cover"
+                      crossOrigin="anonymous"
+                    />
+                    <button
+                      type="button"
+                      onClick={() => removeExistingGalleryImage(index)}
+                      aria-label={`Remove gallery image ${index + 1}`}
+                      className="absolute -right-1.5 -top-1.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-red-500 text-white shadow"
+                    >
+                      <X aria-hidden="true" className="h-3 w-3" />
+                    </button>
+                  </div>
+                ))}
+                {additionalImagePreviews.map((preview, index) => (
+                  <div key={preview} className="relative h-16 w-16 shrink-0">
+                    <img
+                      src={preview}
+                      alt={`New ${index + 1}`}
+                      className="h-full w-full rounded-xl object-cover"
+                    />
+                    <button
+                      type="button"
+                      onClick={() => removeGalleryFile(index)}
+                      aria-label={`Remove new image ${index + 1}`}
+                      className="absolute -right-1.5 -top-1.5 inline-flex h-5 w-5 items-center justify-center rounded-full bg-red-500 text-white shadow"
+                    >
+                      <X aria-hidden="true" className="h-3 w-3" />
+                    </button>
+                  </div>
+                ))}
+              </div>
+            )}
+
+            <label className="block">
+              <span className="inline-flex h-10 w-full cursor-pointer items-center justify-center gap-2 rounded-2xl border border-dashed border-leaf-200 bg-leaf-50 text-sm font-bold text-leaf-700 transition hover:bg-leaf-100">
+                <Upload aria-hidden="true" className="h-4 w-4" />
+                Add gallery images
+              </span>
+              <input
+                type="file"
+                accept={ALLOWED_IMAGE_TYPES.join(",")}
+                multiple
+                onChange={handleGalleryFilesSelect}
+                className="sr-only"
+              />
+            </label>
+          </div>
 
           <button
             type="submit"

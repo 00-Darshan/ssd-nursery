@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { CloudSun, Minus, Plus, Sun, X } from "lucide-react";
+import { ChevronLeft, ChevronRight, CloudSun, Minus, Plus, Sun, X } from "lucide-react";
 
 const placementStyles = {
   sun: {
@@ -21,9 +21,16 @@ const placementStyles = {
 
 export default function PlantModal({ plant, onClose, onAdd }) {
   const [quantity, setQuantity] = useState(1);
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  const images = [
+    plant?.image,
+    ...(plant?.images || []).filter((url) => url !== plant?.image),
+  ].filter(Boolean);
 
   useEffect(() => {
     setQuantity(1);
+    setActiveIndex(0);
   }, [plant?.id]);
 
   useEffect(() => {
@@ -65,8 +72,8 @@ export default function PlantModal({ plant, onClose, onAdd }) {
         <div className="grid max-h-[92vh] overflow-y-auto md:grid-cols-[0.92fr_1.08fr]">
           <div className="relative min-h-72 bg-leaf-100">
             <img
-              src={plant.image}
-              alt={plant.name}
+              src={images[activeIndex] ?? plant.image}
+              alt={`${plant.name}${images.length > 1 ? ` — image ${activeIndex + 1} of ${images.length}` : ""}`}
               className="h-full min-h-72 w-full object-cover"
               crossOrigin="anonymous"
             />
@@ -78,6 +85,40 @@ export default function PlantModal({ plant, onClose, onAdd }) {
             >
               <X aria-hidden="true" className="h-5 w-5" />
             </button>
+
+            {images.length > 1 && (
+              <>
+                <button
+                  type="button"
+                  onClick={() => setActiveIndex((i) => (i - 1 + images.length) % images.length)}
+                  aria-label="Previous image"
+                  className="absolute left-3 top-1/2 -translate-y-1/2 inline-flex h-9 w-9 items-center justify-center rounded-full bg-black/40 text-white transition hover:bg-black/60"
+                >
+                  <ChevronLeft aria-hidden="true" className="h-5 w-5" />
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setActiveIndex((i) => (i + 1) % images.length)}
+                  aria-label="Next image"
+                  className="absolute right-4 top-1/2 -translate-y-1/2 inline-flex h-9 w-9 items-center justify-center rounded-full bg-black/40 text-white transition hover:bg-black/60"
+                >
+                  <ChevronRight aria-hidden="true" className="h-5 w-5" />
+                </button>
+                <div className="absolute bottom-4 left-0 right-0 flex justify-center gap-2" aria-hidden="true">
+                  {images.map((_, index) => (
+                    <button
+                      key={index}
+                      type="button"
+                      onClick={() => setActiveIndex(index)}
+                      aria-label={`Go to image ${index + 1}`}
+                      className={`h-2 w-2 rounded-full transition ${
+                        index === activeIndex ? "bg-white" : "bg-white/45 hover:bg-white/70"
+                      }`}
+                    />
+                  ))}
+                </div>
+              </>
+            )}
           </div>
 
           <div className="space-y-6 p-6 sm:p-8">

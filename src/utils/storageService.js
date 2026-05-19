@@ -47,6 +47,35 @@ export async function uploadPlantImage(file) {
   return data.publicUrl;
 }
 
+export async function uploadPlantGalleryImages(files, plantId) {
+  assertSupabaseConfigured();
+
+  const urls = [];
+
+  for (let i = 0; i < files.length; i++) {
+    const file = files[i];
+
+    if (!ALLOWED_IMAGE_TYPES.includes(file.type)) continue;
+    if (file.size > MAX_IMAGE_SIZE_BYTES) continue;
+
+    const ext = file.name.split(".").pop().toLowerCase() || "jpg";
+    const path = `plants/${plantId}/${Date.now()}-${i}.${ext}`;
+
+    const response = await supabase.storage.from(BUCKET_NAME).upload(path, file, {
+      cacheControl: "3600",
+      contentType: file.type,
+      upsert: false,
+    });
+
+    if (!response.error) {
+      const { data } = supabase.storage.from(BUCKET_NAME).getPublicUrl(path);
+      urls.push(data.publicUrl);
+    }
+  }
+
+  return urls;
+}
+
 export async function deletePlantImage(imageUrl) {
   assertSupabaseConfigured();
   const storagePath = getStoragePathFromUrl(imageUrl);

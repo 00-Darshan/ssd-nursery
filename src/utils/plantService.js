@@ -8,6 +8,7 @@ export const normalizePlantFromDb = (plant) => ({
   benefits: Array.isArray(plant?.benefits) ? plant.benefits : [],
   image: plant?.image_url || "",
   image_url: plant?.image_url || "",
+  images: Array.isArray(plant?.images) ? plant.images : [],
 });
 
 export const toPlantPayload = (plantData) => ({
@@ -20,6 +21,7 @@ export const toPlantPayload = (plantData) => ({
   benefits: plantData.benefits || [],
   description: plantData.description,
   image_url: plantData.image_url || plantData.image || "",
+  images: Array.isArray(plantData.images) ? plantData.images : [],
 });
 
 const throwIfError = ({ error }) => {

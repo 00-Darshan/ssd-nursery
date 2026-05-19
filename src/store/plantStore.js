@@ -114,9 +114,10 @@ export const usePlantStore = create((set, get) => ({
     set({ isSaving: true });
 
     try {
-      await addPlantRecord(plantData);
+      const createdPlant = await addPlantRecord(plantData);
       await get().refreshPlants();
       get().showToast("Plant added successfully \u2713");
+      return createdPlant;
     } catch (error) {
       get().showToast("Failed to save. Please try again.");
       throw error;

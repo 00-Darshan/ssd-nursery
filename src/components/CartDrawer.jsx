@@ -48,7 +48,7 @@ export default function CartDrawer({ isOpen, onOpen, onClose }) {
         quantity: item.quantity,
       }));
 
-      exportToExcel(cartItems, plants);
+      await exportToExcel(cartItems, plants);
     } finally {
       setIsExporting(false);
     }

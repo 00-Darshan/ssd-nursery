@@ -29,6 +29,6 @@ export async function fetchPlantImage(plantName) {
     const data = await response.json();
     return data.results?.[0]?.urls?.regular || DEFAULT_PLANT_IMAGE;
   } catch {
-    return DEFAULT_PLANT_IMAGE;
+    return DEFAULT_PLANT_IMAGE; 
   }
 }

@@ -5,6 +5,7 @@ import { findPlantById } from "../utils/plantStore";
 import {
   deletePlantImage,
   isUploadedPlantImage,
+  uploadPlantGalleryImages,
   uploadPlantImage,
 } from "../utils/storageService";
 
@@ -15,10 +16,11 @@ export default function AdminEditPlant() {
   const categories = usePlantStore((state) => state.categories);
   const isLoading = usePlantStore((state) => state.isLoading);
   const updatePlant = usePlantStore((state) => state.updatePlant);
+  const refreshPlants = usePlantStore((state) => state.refreshPlants);
   const showToast = usePlantStore((state) => state.showToast);
   const plant = findPlantById(plants, id);
 
-  const handleSave = async ({ plant: updatedPlant, imageFile, imageMode }) => {
+  const handleSave = async ({ plant: updatedPlant, imageFile, imageMode, additionalImageFiles, existingGalleryImages }) => {
     let imageUrl = updatedPlant.image_url;
     const previousImageUrl = plant.image_url || plant.image;
 
@@ -34,11 +36,28 @@ export default function AdminEditPlant() {
       }
     }
 
+    // Upload new gallery images
+    const allGalleryUrls = [...(existingGalleryImages || [])];
+    if (additionalImageFiles?.length > 0) {
+      try {
+        const newUrls = await uploadPlantGalleryImages(additionalImageFiles, plant.id);
+        allGalleryUrls.push(...newUrls);
+      } catch {
+        // gallery upload failed — proceed without new gallery images
+      }
+    }
+
     await updatePlant(id, {
       ...updatedPlant,
       image: imageUrl,
       image_url: imageUrl,
+      images: allGalleryUrls,
     });
+
+    if (additionalImageFiles?.length > 0) {
+      await refreshPlants();
+    }
+
     navigate("/admin");
   };
 
