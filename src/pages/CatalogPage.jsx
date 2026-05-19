@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { Leaf, LoaderCircle, RefreshCw, Sprout } from "lucide-react";
 import CartDrawer from "../components/CartDrawer";
 import FilterBar from "../components/FilterBar";
@@ -11,6 +11,7 @@ import { resolvePlantImage, usePlantImageStore } from "../store/plantImageStore"
 import { usePlantStore } from "../store/plantStore";
 
 export default function CatalogPage() {
+  const [searchInput, setSearchInput] = useState("");
   const [searchTerm, setSearchTerm] = useState("");
   const [activeCategory, setActiveCategory] = useState("all");
   const [selectedPlantId, setSelectedPlantId] = useState(null);
@@ -24,6 +25,12 @@ export default function CatalogPage() {
   const imageCache = usePlantImageStore((state) => state.imageCache);
   const loadingIds = usePlantImageStore((state) => state.loadingIds);
   const fetchImagesForPlants = usePlantImageStore((state) => state.fetchImagesForPlants);
+
+  // Debounce search input 300 ms so filtering doesn't run on every keystroke
+  useEffect(() => {
+    const timer = setTimeout(() => setSearchTerm(searchInput), 300);
+    return () => clearTimeout(timer);
+  }, [searchInput]);
 
   useEffect(() => {
     if (plants.length) {
@@ -64,12 +71,20 @@ export default function CatalogPage() {
     [catalogPlants, selectedPlantId],
   );
 
-  const handleAddToCart = (plant, quantity = 1) => {
-    addPlant(plant, quantity);
-    setToast(`${plant.name} added to cart \u2713`);
-    window.clearTimeout(window.greenpickToastTimer);
-    window.greenpickToastTimer = window.setTimeout(() => setToast(""), 2200);
-  };
+  const handleAddToCart = useCallback(
+    (plant, quantity = 1) => {
+      addPlant(plant, quantity);
+      setToast(`${plant.name} added to cart ✓`);
+      window.clearTimeout(window.greenpickToastTimer);
+      window.greenpickToastTimer = window.setTimeout(() => setToast(""), 2200);
+    },
+    [addPlant],
+  );
+
+  const handleOpenPlant  = useCallback((plant) => setSelectedPlantId(plant.id), []);
+  const handleClosePlant = useCallback(() => setSelectedPlantId(null), []);
+  const handleOpenCart   = useCallback(() => setIsCartOpen(true), []);
+  const handleCloseCart  = useCallback(() => setIsCartOpen(false), []);
 
   return (
     <div className="min-h-screen pb-28">
@@ -103,7 +118,7 @@ export default function CatalogPage() {
           </div>
 
           <div className="grid gap-4 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-center">
-            <SearchBar value={searchTerm} onChange={setSearchTerm} />
+            <SearchBar value={searchInput} onChange={setSearchInput} />
             <FilterBar activeCategory={activeCategory} onChange={setActiveCategory} />
           </div>
         </div>
@@ -137,7 +152,7 @@ export default function CatalogPage() {
                 plant={plant}
                 isImageLoading={Boolean(loadingIds[plant.id])}
                 onAdd={handleAddToCart}
-                onOpen={(nextPlant) => setSelectedPlantId(nextPlant.id)}
+                onOpen={handleOpenPlant}
               />
             ))}
           </div>
@@ -151,13 +166,13 @@ export default function CatalogPage() {
 
       <PlantModal
         plant={selectedPlant}
-        onClose={() => setSelectedPlantId(null)}
+        onClose={handleClosePlant}
         onAdd={handleAddToCart}
       />
       <CartDrawer
         isOpen={isCartOpen}
-        onOpen={() => setIsCartOpen(true)}
-        onClose={() => setIsCartOpen(false)}
+        onOpen={handleOpenCart}
+        onClose={handleCloseCart}
       />
       <Toast message={toast} />
     </div>

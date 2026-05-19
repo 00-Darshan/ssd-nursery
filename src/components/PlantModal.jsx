@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { ChevronLeft, ChevronRight, CloudSun, Minus, Plus, Sun, X } from "lucide-react";
 
 const placementStyles = {
@@ -23,15 +23,28 @@ export default function PlantModal({ plant, onClose, onAdd }) {
   const [quantity, setQuantity] = useState(1);
   const [activeIndex, setActiveIndex] = useState(0);
 
-  const images = [
-    plant?.image,
-    ...(plant?.images || []).filter((url) => url !== plant?.image),
-  ].filter(Boolean);
+  const images = useMemo(
+    () =>
+      [
+        plant?.image,
+        ...(plant?.images || []).filter((url) => url !== plant?.image),
+      ].filter(Boolean),
+    [plant?.image, plant?.images],
+  );
 
   useEffect(() => {
     setQuantity(1);
     setActiveIndex(0);
   }, [plant?.id]);
+
+  // Preload the next image so arrow navigation feels instant
+  useEffect(() => {
+    if (images.length <= 1) return;
+    const nextSrc = images[(activeIndex + 1) % images.length];
+    if (!nextSrc) return;
+    const img = new Image();
+    img.src = nextSrc;
+  }, [activeIndex, images]);
 
   useEffect(() => {
     if (!plant) return undefined;

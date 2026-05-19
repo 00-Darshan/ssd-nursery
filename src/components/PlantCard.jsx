@@ -1,3 +1,4 @@
+import { memo, useCallback } from "react";
 import { CloudSun, Plus, Sun } from "lucide-react";
 
 const placementStyles = {
@@ -18,22 +19,33 @@ const placementStyles = {
   },
 };
 
-export default function PlantCard({ plant, isImageLoading = false, onAdd, onOpen }) {
+export default memo(function PlantCard({ plant, isImageLoading = false, onAdd, onOpen }) {
   const placement = placementStyles[plant.placement] ?? placementStyles.shade;
   const PlacementIcon = placement.Icon;
 
-  const handleKeyDown = (event) => {
-    if (event.key === "Enter" || event.key === " ") {
-      event.preventDefault();
-      onOpen(plant);
-    }
-  };
+  const handleKeyDown = useCallback(
+    (event) => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        onOpen(plant);
+      }
+    },
+    [onOpen, plant],
+  );
+
+  const handleAddClick = useCallback(
+    (event) => {
+      event.stopPropagation();
+      onAdd(plant, 1);
+    },
+    [onAdd, plant],
+  );
 
   return (
     <article
       role="button"
       tabIndex={0}
-      onClick={() => onOpen(plant)}
+      onClick={() => onOpen(plant)}  // handled by memo-stable onOpen from parent
       onKeyDown={handleKeyDown}
       className="group overflow-hidden rounded-3xl border border-white bg-white shadow-card transition duration-200 hover:-translate-y-1 hover:shadow-soft"
       aria-label={`View details for ${plant.name}`}
@@ -67,10 +79,7 @@ export default function PlantCard({ plant, isImageLoading = false, onAdd, onOpen
 
         <button
           type="button"
-          onClick={(event) => {
-            event.stopPropagation();
-            onAdd(plant, 1);
-          }}
+          onClick={handleAddClick}
           className="inline-flex h-11 w-full items-center justify-center gap-2 rounded-2xl bg-leaf-600 px-4 text-sm font-extrabold text-white transition hover:bg-leaf-700"
         >
           <Plus aria-hidden="true" className="h-4 w-4" />
@@ -79,4 +88,4 @@ export default function PlantCard({ plant, isImageLoading = false, onAdd, onOpen
       </div>
     </article>
   );
-}
+});

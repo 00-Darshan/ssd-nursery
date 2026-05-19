@@ -73,12 +73,12 @@ export const usePlantStore = create((set, get) => ({
     );
 
     window.localStorage.removeItem(PLANTS_STORAGE_KEY);
-    console.log("Migration complete");
     set({ hasMigrated: true });
   },
 
   initialize: async () => {
-    if (get().isLoading) return;
+    // Skip if already loading or successfully loaded (allow retry when error is present)
+    if (get().isLoading || (get().hasLoaded && !get().error)) return;
 
     set({ isLoading: true, error: "" });
 
